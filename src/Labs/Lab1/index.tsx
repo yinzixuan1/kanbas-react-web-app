@@ -152,11 +152,12 @@ tag to tell browsers to render the gaps.
             <img id="wd-starship"
                 width="400px"
             src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg"
+            alt="A picture of starship"
             />
             <br />
             Loading a local image:
             <br />
-            <img id="wd-teslabot" src="/teslabot.jpg" height="200px"/>
+            <img id="wd-teslabot" src="/teslabot.jpg" alt="A picture of teslabot" height="200px"/>
         </div>
         <div id="wd-forms">
             <h4>Form Elements</h4>
