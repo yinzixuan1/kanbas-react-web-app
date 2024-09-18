@@ -1,4 +1,3 @@
-import { Route, Routes, Navigate } from "react-router";
 
 export default function Landing() {
   return (
