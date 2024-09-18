@@ -68,6 +68,7 @@ export default function AssignmentEditor() {
             <td>
             <br />
               <label htmlFor="wd-online-options">Online Entry Options</label>
+              <br />
               <input type="checkbox" id="wd-text-entry" /> Text Entry
               <br />
               <input type="checkbox" id="wd-website-url" /> Website URL
@@ -129,10 +130,6 @@ export default function AssignmentEditor() {
             <td align="right" valign="top">
               <label htmlFor="wd-space">     </label>
             </td>
-            {/* <td>
-              <input type="date" id="wd-available-from" value="2024-05-06" />
-              <input type="date" id="wd-available-until" value="2024-05-20" />
-            </td> */}
             <td>
               <input type="date" id="wd-available-from" value="2024-05-06" />
             </td>
@@ -142,7 +139,7 @@ export default function AssignmentEditor() {
           </tr>
         </table>
         <br />
-        
+
         <td align="right" valign="top">
           <button>Cancel</button>
           <button>Save</button>
