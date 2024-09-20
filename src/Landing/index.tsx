@@ -23,22 +23,22 @@ export default function Landing() {
 
       <ul>
         <li>
-          <a href="/#/Labs" target="_blank" rel="noopener noreferrer">
+          <a href="/#/Labs" rel="noopener noreferrer">
             Labs
           </a>
         </li>
         <li>
-          <a href="/#/Labs/Lab1" target="_blank" rel="noopener noreferrer">
+          <a href="/#/Labs/Lab1" rel="noopener noreferrer">
             Lab1
           </a>
         </li>
         <li>
-          <a href="/#/Labs/Lab2" target="_blank" rel="noopener noreferrer">
+          <a href="/#/Labs/Lab2" rel="noopener noreferrer">
             Lab2
           </a>
         </li>
         <li>
-          <a href="/#/Labs/Lab3" target="_blank" rel="noopener noreferrer">
+          <a href="/#/Labs/Lab3" rel="noopener noreferrer">
             Lab3
           </a>
         </li>
@@ -48,7 +48,7 @@ export default function Landing() {
 
       <ul>
         <li>
-          <a href="/#/Kanbas" target="_blank" rel="noopener noreferrer">
+          <a href="/#/Kanbas" rel="noopener noreferrer">
             Kanbas
           </a>
         </li>
