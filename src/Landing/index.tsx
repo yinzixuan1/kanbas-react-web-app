@@ -4,7 +4,7 @@ export default function Landing() {
     <div>
       {/* Full name and section number */}
       <div style={{ marginBottom: "20px" }}>
-        <h1>Zixuan Yin - CS5610 - Section 20593</h1>
+        <h1>Zixuan Yin - CS5610 - Section 01</h1>
       </div>
 
       {/* Heading for GitHub link */}
