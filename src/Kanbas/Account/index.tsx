@@ -7,7 +7,6 @@ import Profile from "./Profile";
 export default function Account() {
   return (
     <div id="wd-account-screen">
-      <h2>Kanbas</h2>
       <table>
         <tr>
           <td valign="top">
