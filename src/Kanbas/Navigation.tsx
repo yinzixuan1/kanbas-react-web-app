@@ -10,8 +10,9 @@ export default function KanbasNavigation() {
          className="list-group rounded-0 position-fixed bottom-0 top-0 d-none d-md-block bg-black z-2">
 
       {/* A link to NEU logo */}
-      <a href="https://www.northeastern.edu/" id="wd-neu-link" target="_blank"
-        className="list-group-item bg-black border-0 text-center"><img src="/NEU.png" width="75px" />
+      <a href="https://www.northeastern.edu/" id="wd-neu-link" target="_blank" rel="noreferrer"
+        className="list-group-item bg-black border-0 text-center">
+        <img src="/NEU.png" alt="A Northeastern University logo" width="75px" />
       </a>
       
       <NavLink to="/Kanbas/Account" id="wd-account-link"
