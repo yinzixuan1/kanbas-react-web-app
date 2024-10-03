@@ -1,20 +1,24 @@
+import {useParams} from "react-router";
+
 export default function BootstrapNavigation() {
+    const {cid} = useParams();
+
     return (
         <div>
             <div id="wd-css-navigating-with-tabs">
                 <h2>Tabs</h2>
                 <ul className="nav nav-tabs">
                     <li className="nav-item">
-                        <a className="nav-link active">Active</a>
+                        <a className="nav-link active" href={`#/Labs/Lab2/${cid}`}>Active</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" >Link</a>
+                        <a className="nav-link" href={`#/Labs/Lab2/${cid}`}>Link</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" >Link</a>
+                        <a className="nav-link" href={`#/Labs/Lab2/${cid}`}>Link</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link disabled" >Disabled</a>
+                        <a className="nav-link disabled" href={`#/Labs/Lab2/${cid}`}>Disabled</a>
                     </li>
                 </ul>
             </div>
@@ -34,7 +38,7 @@ export default function BootstrapNavigation() {
                     <p className="card-text">
                         Stacking the most powerful rocket in history. Mars or bust!
                     </p>
-                    <a className="btn btn-primary">
+                    <a href={`#/Labs/Lab2/${cid}`} className="btn btn-primary">
                         Boldly Go
                     </a>
                     </div>

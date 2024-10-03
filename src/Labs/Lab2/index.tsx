@@ -18,6 +18,7 @@ import BootstrapTable from "./BootstrapTables";
 import BootstrapList from "./BootstrapLists";
 import BootstrapForm from "./BootstrapForms";
 import BootstrapNavigation from "./BootstrapNavigation";
+import TOC from "./TOC";
 
 export default function Lab2() {
   return (
@@ -93,6 +94,7 @@ Here's another paragraph using a different ID and a different look and
       <BootstrapList />
       <BootstrapForm />
       <BootstrapNavigation />
+      <div><TOC/></div>
 
     </div>
   );
