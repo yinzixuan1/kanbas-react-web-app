@@ -1,0 +1,19 @@
+/* Ensures all cards are the same height */
+.wd-dashboard-course .card {
+    height: 100%; /* Makes the card stretch to fit its container */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wd-dashboard-course .card-body {
+    flex: 1; /* Makes the card body take up the available space */
+    overflow: hidden; /* Ensures that text doesn't overflow */
+  }
+  
+  /* Optionally, constrain the height of titles */
+  .wd-dashboard-course .card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Shortens the title with '...' if it's too long */
+  }
+  

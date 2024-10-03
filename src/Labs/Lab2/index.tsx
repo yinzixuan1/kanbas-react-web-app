@@ -11,9 +11,17 @@ import Zindex from "./Zindex";
 import Float from "./Float";
 import GridLayout from "./GridLayout";
 import Flex from "./Flex";
+import ReactIconsSampler from "./ReactIcons";
+import BootstrapGrid from "./BootstrapGrids";
+import ScreenSizeLabel from "./ScreenSizeLabel";
+import BootstrapTable from "./BootstrapTables";
+import BootstrapList from "./BootstrapLists";
+import BootstrapForm from "./BootstrapForms";
+import BootstrapNavigation from "./BootstrapNavigation";
+
 export default function Lab2() {
   return (
-    <div id="wd-lab2">
+    <div className="container">
       <h2>Lab 2 - Cascading Style Sheets</h2>
       <h3>Styling with the STYLE attribute</h3>
       <p>
@@ -78,6 +86,13 @@ Here's another paragraph using a different ID and a different look and
       <Float />
       <GridLayout />
       <Flex />
+      <ReactIconsSampler />
+      <BootstrapGrid />
+      <ScreenSizeLabel />
+      <BootstrapTable />
+      <BootstrapList />
+      <BootstrapForm />
+      <BootstrapNavigation />
 
     </div>
   );
