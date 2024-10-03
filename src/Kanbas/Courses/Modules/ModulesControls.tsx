@@ -1,7 +1,9 @@
 import { FaPlus } from "react-icons/fa6";
 import { MdDoNotDisturbAlt } from "react-icons/md";
 import GreenCheckmark from "./GreenCheckmark";
+import {useParams} from "react-router";
 export default function ModulesControls() {
+  const {cid} = useParams();
   return (
     <div id="wd-modules-controls" className="text-nowrap">
 
@@ -19,26 +21,26 @@ export default function ModulesControls() {
         
         <ul className="dropdown-menu">
           <li>
-            <a id="wd-publish-all-modules-and-items-btn" className="dropdown-item">
+            <a id="wd-publish-all-modules-and-items-btn" className="dropdown-item" href={`/#/Kanbas/Courses/${cid}/Home`}>
               <GreenCheckmark />
               Publish all modules and items
             </a>
           </li>
           <li>
-            <a id="wd-publish-modules-only-button" className="dropdown-item">
+            <a id="wd-publish-modules-only-button" className="dropdown-item" href={`/#/Kanbas/Courses/${cid}/Home`}>
               <GreenCheckmark />
               Publish modules only
             </a>
           </li>
           <li>
-            <a id="wd-unpublish-all-modules-and-items" className="dropdown-item">
-              <MdDoNotDisturbAlt className="me-2 fs-5" /> 
+            <a id="wd-unpublish-all-modules-and-items" className="dropdown-item" href={`/#/Kanbas/Courses/${cid}/Home`}>
+              <MdDoNotDisturbAlt className="me-1 fs-5" /> 
               Unpublish all modules and items
             </a>
           </li>
           <li>
-            <a id="wd-unpublish-modules-only" className="dropdown-item">
-              <MdDoNotDisturbAlt className="me-2 fs-5" /> 
+            <a id="wd-unpublish-modules-only" className="dropdown-item" href={`/#/Kanbas/Courses/${cid}/Home`}>
+              <MdDoNotDisturbAlt className="me-1 fs-5" /> 
               Unpublish modules only
             </a>
           </li>
