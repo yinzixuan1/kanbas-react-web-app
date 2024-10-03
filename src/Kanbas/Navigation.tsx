@@ -3,6 +3,7 @@ import { AiOutlineDashboard } from "react-icons/ai";
 import { IoCalendarOutline } from "react-icons/io5";
 import { LiaBookSolid, LiaCogSolid } from "react-icons/lia";
 import { FaInbox, FaRegCircleUser } from "react-icons/fa6";
+import { FaHome } from "react-icons/fa";
 
 export default function KanbasNavigation() {
   return (
@@ -69,7 +70,14 @@ export default function KanbasNavigation() {
         Labs
       </NavLink>
 
-      <Link to="/Landing" id="wd-landing-page">Back to Landing Page</Link><br/>
+      <NavLink to="/"
+        className={({ isActive }) => 
+          isActive ? 'list-group-item text-center border-0 bg-white text-danger' : 'list-group-item text-center border-0 bg-black text-white'
+        }>
+        <FaHome className="fs-1 text-danger" />
+        <br />
+        Landing Page
+      </NavLink>
 
     </div>
 );}
