@@ -17,10 +17,8 @@ export default function KanbasNavigation() {
       </a>
       
       <NavLink to="/Kanbas/Account" id="wd-account-link"
-        className={({ isActive }) => 
-          isActive ? 'list-group-item text-center border-0 bg-white text-danger' : 'list-group-item text-center border-0 bg-black text-white'
-        }>
-        <FaRegCircleUser className="fs-1 text text-white" />
+        className={({ isActive }) => `list-group-item text-center border-0 ${isActive ? "bg-white text-danger" : "bg-black text-white"}`}>
+                <FaRegCircleUser className="fs-1" />
         <br />
         Account
       </NavLink>
