@@ -5,7 +5,7 @@ export default function ModuleControlButtons() {
   return (
     <div className="float-end">
       <GreenCheckmark />
-      <FaPlus className="me-2 fs-4 text-dark" />
+      <FaPlus className="me-1 ms-1" />
       <IoEllipsisVertical className="fs-4" />
     </div>
 );}

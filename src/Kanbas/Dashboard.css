@@ -17,3 +17,13 @@
     text-overflow: ellipsis; /* Shortens the title with '...' if it's too long */
   }
   
+  /* Adjust the description text */
+.wd-dashboard-course .card-text {
+  flex-grow: 1; /* Makes the description take up available space */
+  overflow: hidden;
+}
+
+/* Makes the Go button align at the bottom */
+.wd-dashboard-course .btn {
+  margin-top: auto; /* Pushes the button to the bottom of the card body */
+}
