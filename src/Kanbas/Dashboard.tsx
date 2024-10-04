@@ -44,7 +44,7 @@ export default function Dashboard() {
                     CS1235 Machine Learning
                   </h5>
                   <p className="wd-dashboard-course-title card-text">
-                    Machine Learning
+                    Introduction to AI and ML
                   </p>
                   <button className="btn btn-primary"> Go </button>
                 </div>
@@ -61,7 +61,7 @@ export default function Dashboard() {
                     CS1236 Discrete Structures
                   </h5>
                   <p className="wd-dashboard-course-title card-text">
-                    Discrete Structures
+                    Foundation of math and its usage to computer sciences
                   </p>
                   <button className="btn btn-primary"> Go </button>
                 </div>
@@ -78,7 +78,7 @@ export default function Dashboard() {
                     CS1237 Mobile Application
                   </h5>
                   <p className="wd-dashboard-course-title card-text">
-                    Mobile Application
+                    Develop Android and IOS Mobile Applications
                   </p>
                   <button className="btn btn-primary"> Go </button>
                 </div>
@@ -95,7 +95,7 @@ export default function Dashboard() {
                     CS1238 Foundation of Computer Sciences
                   </h5>
                   <p className="wd-dashboard-course-title card-text">
-                    Foundation of Computer Sciences
+                    Learn foundamental data structures and widely-used algorithm
                   </p>
                   <button className="btn btn-primary"> Go </button>
                 </div>
@@ -112,7 +112,7 @@ export default function Dashboard() {
                     CS1239 Algorithm
                   </h5>
                   <p className="wd-dashboard-course-title card-text">
-                    Algorithm
+                    Learn important algorithms used in industry
                   </p>
                   <button className="btn btn-primary"> Go </button>
                 </div>
@@ -129,7 +129,7 @@ export default function Dashboard() {
                     CS1240 Cloud Computing
                   </h5>
                   <p className="wd-dashboard-course-title card-text">
-                    Cloud Computing
+                    Learn knowledge and application on Cloud Computing
                   </p>
                   <button className="btn btn-primary"> Go </button>
                 </div>
@@ -146,7 +146,7 @@ export default function Dashboard() {
                     CS1241 Databases
                   </h5>
                   <p className="wd-dashboard-course-title card-text">
-                    Databases
+                    Learn SQL and Databases Management
                   </p>
                   <button className="btn btn-primary"> Go </button>
                 </div>
