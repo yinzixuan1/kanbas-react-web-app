@@ -1,30 +1,19 @@
-import { NavLink } from "react-router-dom";
+import {Link} from "react-router-dom";
+import {useLocation} from "react-router";
+import {useSelector} from "react-redux";
+
 export default function AccountNavigation() {
+  const { currentUser } = useSelector((state: any) => state.accountReducer);
+  const links = currentUser ? ["Profile"] : ["Signin", "Signup"];
+  const { pathname } = useLocation();
   return (
-    <div id="wd-account-navigation" style={{ width: 110 }} 
-         className="list-group rounded-0 bg-white">
-
-      <NavLink to="/Kanbas/Account/Signin" id="wd-signin-link"
-        className={({ isActive }) => 
-          isActive ? 'list-group-item text-center border-0 bg-white text-black border-start border-3 border-dark' : 'list-group-item text-center border-0 bg-white text-danger'
-        }>
-        Signin
-      </NavLink>
-
-      <NavLink to="/Kanbas/Account/Signup" id="wd-signup-link"
-        className={({ isActive }) => 
-          isActive ? 'list-group-item text-center border-0 bg-white text-black border-start border-3 border-dark' : 'list-group-item text-center border-0 bg-white text-danger'
-        }>
-        Signup
-      </NavLink>
-
-      <NavLink to="/Kanbas/Account/Profile" id="wd-profile-link"
-        className={({ isActive }) => 
-          isActive ? 'list-group-item text-center border-0 bg-white text-black border-start border-3 border-dark' : 'list-group-item text-center border-0 bg-white text-danger'
-        }>
-        Profile
-      </NavLink>
-      
+    <div id="wd-account-navigation" className="wd list-group fs-5 rounded-0">
+      <Link  to="/Kanbas/Account/Signin"  className={`list-group-item border border-0
+      ${pathname.includes("Signin") ? "active" : "text-danger"}`}>Signin</Link>
+      <Link  to="/Kanbas/Account/Signup"  className={`list-group-item border border-0
+      ${pathname.includes("Signup") ? "active" : "text-danger"}`}>Signup</Link>
+      <Link  to="/Kanbas/Account/Profile"  className={`list-group-item border border-0
+      ${pathname.includes("Profile") ? "active" : "text-danger"}`}>Profile</Link>
     </div>
   );
 }

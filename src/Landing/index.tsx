@@ -42,6 +42,11 @@ export default function Landing() {
             Lab3
           </a>
         </li>
+        <li>
+          <a href="/#/Labs/Lab4" rel="noopener noreferrer">
+            Lab4
+          </a>
+        </li>
       </ul>
 
       <h1>Kanbas</h1>
