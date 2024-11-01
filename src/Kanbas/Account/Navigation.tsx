@@ -3,7 +3,7 @@ import {useLocation} from "react-router";
 import {useSelector} from "react-redux";
 
 export default function AccountNavigation() {
-  const { currentUser } = useSelector((state: any) => state.accountReducer);
+  // const { currentUser } = useSelector((state: any) => state.accountReducer);
   const { pathname } = useLocation();
   return (
     <div id="wd-account-navigation" className="wd list-group fs-5 rounded-0">
