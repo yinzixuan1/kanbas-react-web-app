@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
-import {useSelector} from "react-redux";
+// import {useSelector} from "react-redux";
 
 export default function AccountNavigation() {
   // const { currentUser } = useSelector((state: any) => state.accountReducer);
