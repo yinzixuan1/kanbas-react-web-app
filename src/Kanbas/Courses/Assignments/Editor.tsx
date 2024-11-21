@@ -3,6 +3,7 @@ import {useEffect, useState} from 'react';
 import Select from 'react-select';
 import {addAssignment, updateAssignment} from "./reducer";
 import {useDispatch, useSelector} from "react-redux";
+import * as assignmentsClient from "./client";
 export default function AssignmentEditor({ isFaculty }: { isFaculty: boolean }) {
   const { cid, aid } = useParams();
   const dispatch = useDispatch();
@@ -30,6 +31,17 @@ export default function AssignmentEditor({ isFaculty }: { isFaculty: boolean }) 
     }
   }, [assignment]);
 
+  const handleAddAssignment = async (assignment: any) => {
+    if (!cid) return;
+    const newAssignment = await assignmentsClient.createAssignment(cid, assignment);
+    dispatch(addAssignment(newAssignment));
+  };
+
+  const handleUpdateAssignment = async (assignment: any) => {
+    await assignmentsClient.updateAssignment(assignment);
+    dispatch(updateAssignment(assignment));
+  }
+
   const handleSave = () => {
     const updatedAssignment = {
       _id: aid,
@@ -42,7 +54,7 @@ export default function AssignmentEditor({ isFaculty }: { isFaculty: boolean }) 
       due_date: due_date,
     };
 
-    assignment ? dispatch(updateAssignment(updatedAssignment)) : dispatch(addAssignment(updatedAssignment));
+    assignment ? handleUpdateAssignment(updatedAssignment): handleAddAssignment(updatedAssignment);
 
     navigate(`/Kanbas/Courses/${cid}/Assignments`);
   }
@@ -57,14 +69,14 @@ export default function AssignmentEditor({ isFaculty }: { isFaculty: boolean }) 
     { value: 'groups', label: 'Groups' },
   ];
   const [selectedOptions, setSelectedOptions] = useState([{ value: 'everyone', label: 'Everyone' }]);
-  // const [submissionType, setSubmissionType] = useState("Online");
+  const [submissionType, setSubmissionType] = useState("Online");
   const handleSelectChange = (selectedOptions: any) => {
     setSelectedOptions(selectedOptions || []);
   };
 
-  // const handleSubmissionTypeChange = (e: any) => {
-  //   setSubmissionType(e.target.value);
-  // };
+  const handleSubmissionTypeChange = (e: any) => {
+    setSubmissionType(e.target.value);
+  };
 
   return (
     <div id="wd-assignments-editor" className="container">
