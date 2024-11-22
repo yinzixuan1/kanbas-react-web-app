@@ -69,14 +69,10 @@ export default function AssignmentEditor({ isFaculty }: { isFaculty: boolean }) 
     { value: 'groups', label: 'Groups' },
   ];
   const [selectedOptions, setSelectedOptions] = useState([{ value: 'everyone', label: 'Everyone' }]);
-  const [submissionType, setSubmissionType] = useState("Online");
   const handleSelectChange = (selectedOptions: any) => {
     setSelectedOptions(selectedOptions || []);
   };
 
-  const handleSubmissionTypeChange = (e: any) => {
-    setSubmissionType(e.target.value);
-  };
 
   return (
     <div id="wd-assignments-editor" className="container">

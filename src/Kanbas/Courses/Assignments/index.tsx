@@ -30,7 +30,7 @@ export default function Assignments({ isFaculty }: { isFaculty: boolean }) {
 
   useEffect(() => {
     fetchAssignments();
-  }, [])
+  }, [fetchAssignments])
 
   const startAddAssignment = () => {
     if (!cid) return;

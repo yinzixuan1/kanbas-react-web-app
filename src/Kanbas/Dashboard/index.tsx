@@ -49,7 +49,7 @@ export default function Dashboard(
     fetchMyCourses()
     fetchAllCourses();
     fetchEnrollments();
-  },[])
+  },[fetchEnrollments])
 
   const enrollCourse = async ({ course }: { course: any }) => {
     await enrollClient.addEnrollment(currentUser._id, course._id);
@@ -119,7 +119,7 @@ export default function Dashboard(
                     }
                   }}
                 >
-                  <img src={`/images/${course._id}.jpg`} width="100%" height={160}/>
+                  <img src={`/images/${course._id}.jpg`} width="100%" height={160} alt="${course._id}"/>
                   <div className="card-body">
                     <h5 className="wd-dashboard-course-title card-title overflow-y-hidden" style={{maxHeight: 23}}>
                       {course._id} {course.name}
