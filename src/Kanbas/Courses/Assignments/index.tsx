@@ -8,7 +8,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {useNavigate} from "react-router-dom";
 import {deleteAssignment, setAssignment, setAssignments} from "./reducer";
 import * as assignmentsClient from "./client";
-import {useEffect, useState} from "react";
+import {useEffect, useState, useCallback} from "react";
 import {FaTrash} from "react-icons/fa";
 import GreenCheckmark from "../Modules/GreenCheckmark";
 import {IoEllipsisVertical} from "react-icons/io5";
@@ -23,10 +23,10 @@ export default function Assignments({ isFaculty }: { isFaculty: boolean }) {
   // Define a state variable to track the selected assignment ID
   const [assignmentToDelete, setAssignmentToDelete] = useState(null);
 
-  const fetchAssignments = async () => {
+  const fetchAssignments = useCallback(async () => {
     const assignments = await assignmentsClient.findAssignmentsForCourse(cid as string);
     dispatch(setAssignments(assignments));
-  }
+  }, [dispatch, cid]);
 
   useEffect(() => {
     fetchAssignments();

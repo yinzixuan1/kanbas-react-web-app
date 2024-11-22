@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import {useEffect, useState, useCallback} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import { Link } from "react-router-dom";
 import {enroll, unenroll, setEnrollments} from "./enrollmentsReducer";
@@ -40,10 +40,10 @@ export default function Dashboard(
     setMyCourses(myCourses);
   }
 
-  const fetchEnrollments = async () => {
+  const fetchEnrollments = useCallback(async () => {
     const userEnrollments = await userClient.findAllMyEnrollments(currentUser._id);
     dispatch(setEnrollments(userEnrollments));
-  }
+  }, [currentUser._id, dispatch]);
 
   useEffect(() => {
     fetchMyCourses()
@@ -119,7 +119,7 @@ export default function Dashboard(
                     }
                   }}
                 >
-                  <img src={`/images/${course._id}.jpg`} width="100%" height={160} alt="${course._id}"/>
+                  <img src={`/images/${course._id}.jpg`} width="100%" height={160} alt={course._id}/>
                   <div className="card-body">
                     <h5 className="wd-dashboard-course-title card-title overflow-y-hidden" style={{maxHeight: 23}}>
                       {course._id} {course.name}

@@ -3,7 +3,7 @@ import {BsGripVertical} from "react-icons/bs";
 import LessonControlButtons from "./LessonControlButtons";
 import ModuleControlButtons from "./ModuleControlButtons";
 import { useParams } from "react-router";
-import {useState, useEffect} from "react";
+import {useState, useEffect, useCallback} from "react";
 import { setModules, addModule, editModule, updateModule, deleteModule }
   from "./reducer";
 import { useSelector, useDispatch } from "react-redux";
@@ -15,10 +15,11 @@ export default function Modules({ isFaculty }: { isFaculty: boolean }) {
   const { modules } = useSelector((state: any) => state.modulesReducer);
   const [moduleName, setModuleName] = useState("");
   const dispatch = useDispatch();
-  const fetchModules = async () => {
+  const fetchModules = useCallback(async () => {
     const modules = await coursesClient.findModulesForCourse(cid as string);
     dispatch(setModules(modules));
-  };
+  }, [dispatch, cid]);
+  
   useEffect(() => {
     fetchModules();
   }, [fetchModules]);
