@@ -1,1671 +1,1403 @@
 [
   {
-    "_id": "M101",
-    "name": "Introduction to Rocket Propulsion",
-    "description": "Basic principles of rocket propulsion and rocket engines.",
-    "course": "RS101",
-    "lessons": [
-      {
-        "_id": "L101",
-        "name": "History of Rocketry",
-        "description": "A brief history of rocketry and space exploration.",
-        "module": "M101"
-      },
-      {
-        "_id": "L102",
-        "name": "Rocket Propulsion Fundamentals",
-        "description": "Basic principles of rocket propulsion.",
-        "module": "M101"
-      },
-      {
-        "_id": "L103",
-        "name": "Rocket Engine Types",
-        "description": "Overview of different types of rocket engines.",
-        "module": "M101"
-      }
-    ]
-  },
-  {
-    "_id": "M102",
-    "name": "Fuel and Combustion",
-    "description": "Understanding rocket fuel, combustion processes, and efficiency.",
-    "course": "RS101",
-    "lessons": [
-      {
-        "_id": "L201",
-        "name": "Rocket Fuel",
-        "description": "Overview of different types of rocket fuels.",
-        "module": "M102"
-      },
-      {
-        "_id": "L202",
-        "name": "Combustion Processes",
-        "description": "Understanding combustion processes and efficiency.",
-        "module": "M102"
-      },
-      {
-        "_id": "L203",
-        "name": "Combustion Instability",
-        "description": "Understanding combustion instability and mitigation.",
-        "module": "M102"
-      }
-    ]
-  },
-  {
-    "_id": "M103",
-    "name": "Nozzle Design",
-    "description": "Principles of rocket nozzle design and performance optimization.",
-    "course": "RS101",
-    "lessons": [
-      {
-        "_id": "L301",
-        "name": "Nozzle Design",
-        "description": "Overview of different types of rocket nozzles.",
-        "module": "M103"
-      },
-      {
-        "_id": "L302",
-        "name": "Nozzle Performance",
-        "description": "Understanding nozzle performance and efficiency.",
-        "module": "M103"
-      },
-      {
-        "_id": "L303",
-        "name": "Nozzle Optimization",
-        "description": "Optimizing nozzle design for specific applications.",
-        "module": "M103"
-      }
-    ]
-  },
-  {
-    "_id": "M201",
-    "name": "Fundamentals of Aerodynamics",
-    "description": "Basic aerodynamic concepts and fluid dynamics principles.",
-    "course": "RS102",
-    "lessons": [
-      {
-        "_id": "L201",
-        "name": "Principles of Lift and Drag",
-        "description": "Basic principles of lift and drag in aerodynamic systems.",
-        "module": "M201"
-      },
-      {
-        "_id": "L202",
-        "name": "Flow Characteristics",
-        "description": "Understanding the behavior of airflows around objects.",
-        "module": "M201"
-      },
-      {
-        "_id": "L203",
-        "name": "Boundary Layers and Flow Separation",
-        "description": "Study of boundary layers and flow separation in aerodynamics.",
-        "module": "M201"
-      }
-    ]
-  },
-  {
-    "_id": "M202",
-    "name": "Subsonic and Supersonic Flow",
-    "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
-    "course": "RS102",
-    "lessons": [
-      {
-        "_id": "L204",
-        "name": "Subsonic Flow Principles",
-        "description": "Understanding the behavior of airflow at subsonic speeds.",
-        "module": "M202"
-      },
-      {
-        "_id": "L205",
-        "name": "Supersonic Flow Dynamics",
-        "description": "Key principles of airflow at supersonic speeds and shock waves.",
-        "module": "M202"
-      },
-      {
-        "_id": "L206",
-        "name": "Compressibility Effects",
-        "description": "Effects of compressibility in subsonic and supersonic flows.",
-        "module": "M202"
-      }
-    ]
-  },
-  {
-    "_id": "M203",
-    "name": "Aerodynamic Heating",
-    "description": "Study of aerodynamic heating and thermal protection systems.",
-    "course": "RS102",
-    "lessons": [
-      {
-        "_id": "L207",
-        "name": "Heat Transfer Mechanisms",
-        "description": "Understanding the mechanisms of heat transfer in high-speed flows.",
-        "module": "M203"
-      },
-      {
-        "_id": "L208",
-        "name": "Thermal Protection Systems",
-        "description": "Overview of systems used to protect vehicles from aerodynamic heating.",
-        "module": "M203"
-      },
-      {
-        "_id": "L209",
-        "name": "Hypersonic Flow Heating",
-        "description": "The impact of aerodynamic heating in hypersonic flows.",
-        "module": "M203"
-      }
-    ]
-  },
-  {
-    "_id": "M301",
-    "name": "Spacecraft Structural Design",
-    "description": "Fundamentals of designing spacecraft structures and materials selection.",
-    "course": "RS103",
-    "lessons": [
-      {
-        "_id": "L301",
-        "name": "Materials for Spacecraft",
-        "description": "Introduction to materials used in spacecraft design.",
-        "module": "M301"
-      },
-      {
-        "_id": "L302",
-        "name": "Structural Analysis",
-        "description": "Techniques for analyzing spacecraft structures under stress.",
-        "module": "M301"
-      },
-      {
-        "_id": "L303",
-        "name": "Load-Bearing Structures",
-        "description": "Designing load-bearing structures for spacecraft.",
-        "module": "M301"
-      }
-    ]
-  },
-  {
-    "_id": "M302",
-    "name": "Orbital Mechanics",
-    "description": "Understanding orbital dynamics and mission planning.",
-    "course": "RS103",
-    "lessons": [
-      {
-        "_id": "L304",
-        "name": "Kepler's Laws and Orbital Elements",
-        "description": "Fundamentals of Kepler's laws and defining orbital elements.",
-        "module": "M302"
-      },
-      {
-        "_id": "L305",
-        "name": "Orbital Transfer Maneuvers",
-        "description": "Understanding Hohmann transfers and other orbital maneuvers.",
-        "module": "M302"
-      },
-      {
-        "_id": "L306",
-        "name": "Mission Planning and Delta-v",
-        "description": "Basics of mission planning and calculating delta-v for orbital changes.",
-        "module": "M302"
-      }
-    ]
-  },
-  {
-    "_id": "M303",
-    "name": "Spacecraft Systems Engineering",
-    "description": "Overview of spacecraft systems and subsystems engineering.",
-    "course": "RS103",
-    "lessons": [
-      {
-        "_id": "L307",
-        "name": "Power Systems",
-        "description": "Introduction to spacecraft power generation and storage systems.",
-        "module": "M303"
-      },
-      {
-        "_id": "L308",
-        "name": "Thermal Control Systems",
-        "description": "Overview of thermal control methods used in spacecraft.",
-        "module": "M303"
-      },
-      {
-        "_id": "L309",
-        "name": "Communication and Avionics Systems",
-        "description": "Study of communication systems and avionics in spacecraft engineering.",
-        "module": "M303"
-      }
-    ]
-  },
-  {
-    "_id": "M401",
-    "name": "Fundamentals of Organic Chemistry",
-    "description": "Basic concepts, structures, and reactions in organic chemistry.",
-    "course": "RS104",
-    "lessons": [
-      {
-        "_id": "L601",
-        "name": "Hydrocarbons",
-        "description": "Introduction to alkanes, alkenes, and alkynes.",
-        "module": "M401"
-      },
-      {
-        "_id": "L602",
-        "name": "Functional Groups",
-        "description": "Understanding key functional groups in organic molecules.",
-        "module": "M401"
-      },
-      {
-        "_id": "L603",
-        "name": "Organic Reaction Mechanisms",
-        "description": "Exploring common reaction mechanisms in organic chemistry.",
-        "module": "M401"
-      }
-    ]
-  },
-
-  {
-      "_id": "M402",
-      "name": "Stereochemistry",
-      "description": "Study of the 3D structures of organic molecules.",
-      "course": "RS104",
+      "name": "Rocket Propulsion",
+      "description": "In-depth study of the fundamentals of rocket propulsion, including propulsion theory, engine types, fuel chemistry, and practical applications.",
+      "course": "67511703f69ec08cc3326480",
       "lessons": [
-        {
-          "_id": "L604",
-          "name": "Isomerism",
-          "description": "Types of isomerism and their importance.",
-          "module": "M402"
-        },
-        {
-          "_id": "L605",
-          "name": "Chirality",
-          "description": "Understanding chiral centers and enantiomers.",
-          "module": "M402"
-        },
-        {
-          "_id": "L606",
-          "name": "Optical Activity",
-          "description": "Explaining optical activity in chiral molecules.",
-          "module": "M402"
-        }
+          {
+              "name": "Introduction to Rocket Propulsion",
+              "description": "Basic introduction to propulsion theory and types of rocket engines.",
+              "module": "M10101"
+          },
+          {
+              "name": "Propulsion Theory",
+              "description": "Explores the physics and mathematics behind rocket propulsion.",
+              "module": "M10101"
+          },
+          {
+              "name": "Fuel Chemistry",
+              "description": "Detailed study of rocket fuel chemistry and its role in propulsion.",
+              "module": "M10101"
+          },
+          {
+              "name": "Engine Types",
+              "description": "Overview of the various types of engines used in rockets.",
+              "module": "M10101"
+          }
       ]
-    },
-    {
-      "_id": "M403",
-      "name": "Organic Synthesis",
-      "description": "Techniques and strategies for organic compound synthesis.",
-      "course": "RS104",
+  },
+  {
+      "name": "Rocket Propulsion",
+      "description": "In-depth study of the fundamentals of rocket propulsion, including propulsion theory, engine types, fuel chemistry, and practical applications.",
+      "course": "67511703f69ec08cc3326480",
       "lessons": [
-        {
-          "_id": "L607",
-          "name": "Synthesis Strategies",
-          "description": "Approaches to synthesizing complex organic molecules.",
-          "module": "M403"
-        },
-        {
-          "_id": "L608",
-          "name": "Retrosynthetic Analysis",
-          "description": "Breaking down complex structures into simpler precursors.",
-          "module": "M403"
-        },
-        {
-          "_id": "L609",
-          "name": "Catalysis in Organic Synthesis",
-          "description": "Role of catalysts in enhancing reaction efficiency.",
-          "module": "M403"
-        }
+          {
+              "name": "Introduction to Rocket Propulsion",
+              "description": "Basic introduction to propulsion theory and types of rocket engines.",
+              "module": "M10102"
+          },
+          {
+              "name": "Propulsion Theory",
+              "description": "Explores the physics and mathematics behind rocket propulsion.",
+              "module": "M10102"
+          },
+          {
+              "name": "Fuel Chemistry",
+              "description": "Detailed study of rocket fuel chemistry and its role in propulsion.",
+              "module": "M10102"
+          },
+          {
+              "name": "Engine Types",
+              "description": "Overview of the various types of engines used in rockets.",
+              "module": "M10102"
+          }
       ]
-    },  
-  
-  {
-    
-    "_id": "M501",
-    "name": "Introduction to Inorganic Chemistry",
-    "description": "Basic principles and classification of inorganic compounds.",
-    "course": "RS105",
-    "lessons": [
-      {
-        "_id": "L701",
-        "name": "Periodic Table",
-        "description": "Understanding the periodic trends and elements.",
-        "module": "M501"
-      },
-      {
-        "_id": "L702",
-        "name": "Bonding Theories",
-        "description": "Ionic, covalent, and metallic bonding in inorganic compounds.",
-        "module": "M501"
-      },
-      {
-        "_id": "L703",
-        "name": "Inorganic Nomenclature",
-        "description": "Rules for naming inorganic compounds.",
-        "module": "M501"
-      }
-    ]
   },
   {
-    "_id": "M502",
-    "name": "Coordination Chemistry",
-    "description": "Study of metal complexes and coordination compounds.",
-    "course": "RS105",
-    "lessons": [
-      {
-        "_id": "L704",
-        "name": "Ligand Types",
-        "description": "Different types of ligands and their roles.",
-        "module": "M502"
-      },
-      {
-        "_id": "L705",
-        "name": "Crystal Field Theory",
-        "description": "Understanding the splitting of d-orbitals in complexes.",
-        "module": "M502"
-      },
-      {
-        "_id": "L706",
-        "name": "Coordination Number and Geometry",
-        "description": "Geometry around the central atom in complexes.",
-        "module": "M502"
-      }
-    ]
+      "name": "Rocket Propulsion",
+      "description": "In-depth study of the fundamentals of rocket propulsion, including propulsion theory, engine types, fuel chemistry, and practical applications.",
+      "course": "67511703f69ec08cc3326480",
+      "lessons": [
+          {
+              "name": "Introduction to Rocket Propulsion",
+              "description": "Basic introduction to propulsion theory and types of rocket engines.",
+              "module": "M10103"
+          },
+          {
+              "name": "Propulsion Theory",
+              "description": "Explores the physics and mathematics behind rocket propulsion.",
+              "module": "M10103"
+          },
+          {
+              "name": "Fuel Chemistry",
+              "description": "Detailed study of rocket fuel chemistry and its role in propulsion.",
+              "module": "M10103"
+          },
+          {
+              "name": "Engine Types",
+              "description": "Overview of the various types of engines used in rockets.",
+              "module": "M10103"
+          }
+      ]
   },
   {
-    "_id": "M503",
-    "name": "Bioinorganic Chemistry",
-    "description": "Role of metals in biological systems.",
-    "course": "RS105",
-    "lessons": [
-      {
-        "_id": "L707",
-        "name": "Metalloenzymes",
-        "description": "Function of metal ions in enzymes.",
-        "module": "M503"
-      },
-      {
-        "_id": "L708",
-        "name": "Transport and Storage of Metal Ions",
-        "description": "Mechanisms of metal transport in biological systems.",
-        "module": "M503"
-      },
-      {
-        "_id": "L709",
-        "name": "Metals in Medicine",
-        "description": "Applications of metal complexes in medicinal chemistry.",
-        "module": "M503"
-      }
-    ]
-  },
-  
-  {
-
-      
-    "_id": "M601",
-    "name": "Thermodynamics",
-    "description": "Principles of thermodynamics and their application in chemistry.",
-    "course": "RS106",
-    "lessons": [
-      {
-        "_id": "L801",
-        "name": "Laws of Thermodynamics",
-        "description": "The fundamental laws governing energy transformations.",
-        "module": "M601"
-      },
-      {
-        "_id": "L802",
-        "name": "Gibbs Free Energy",
-        "description": "Determining spontaneity of reactions.",
-        "module": "M601"
-      },
-      {
-        "_id": "L803",
-        "name": "Phase Equilibria",
-        "description": "Understanding phase transitions and diagrams.",
-        "module": "M601"
-      }
-    ]
+      "name": "Aerodynamics",
+      "description": "Comprehensive exploration of aerodynamics, focusing on airflow and its effects on flying objects.",
+      "course": "67511703f69ec08cc3326481",
+      "lessons": [
+          {
+              "name": "Introduction to Aerodynamics",
+              "description": "Basic principles of aerodynamics and fluid dynamics.",
+              "module": "M10201"
+          },
+          {
+              "name": "Airfoil Design",
+              "description": "Study of airfoil shapes and their effects on lift and drag.",
+              "module": "M10201"
+          },
+          {
+              "name": "Lift and Drag Forces",
+              "description": "Exploration of lift and drag forces acting on flying objects.",
+              "module": "M10201"
+          }
+      ]
   },
   {
-    "_id": "M602",
-    "name": "Chemical Kinetics",
-    "description": "Study of reaction rates and mechanisms.",
-    "course": "RS106",
-    "lessons": [
-      {
-        "_id": "L804",
-        "name": "Reaction Rate Laws",
-        "description": "Defining the rate laws for chemical reactions.",
-        "module": "M602"
-      },
-      {
-        "_id": "L805",
-        "name": "Reaction Mechanisms",
-        "description": "Elucidating the step-by-step process of chemical reactions.",
-        "module": "M602"
-      },
-      {
-        "_id": "L806",
-        "name": "Catalysis",
-        "description": "Role of catalysts in speeding up chemical reactions.",
-        "module": "M602"
-      }
-    ]
+      "name": "Aerodynamics",
+      "description": "Comprehensive exploration of aerodynamics, focusing on airflow and its effects on flying objects.",
+      "course": "67511703f69ec08cc3326481",
+      "lessons": [
+          {
+              "name": "Introduction to Aerodynamics",
+              "description": "Basic principles of aerodynamics and fluid dynamics.",
+              "module": "M10202"
+          },
+          {
+              "name": "Airfoil Design",
+              "description": "Study of airfoil shapes and their effects on lift and drag.",
+              "module": "M10202"
+          },
+          {
+              "name": "Lift and Drag Forces",
+              "description": "Exploration of lift and drag forces acting on flying objects.",
+              "module": "M10202"
+          }
+      ]
   },
   {
-    "_id": "M603",
-    "name": "Quantum Chemistry",
-    "description": "Quantum mechanical principles applied to chemical systems.",
-    "course": "RS106",
-    "lessons": [
-      {
-        "_id": "L807",
-        "name": "Wave Functions and Orbitals",
-        "description": "Understanding the concept of orbitals and electron configurations.",
-        "module": "M603"
-      },
-      {
-        "_id": "L808",
-        "name": "Molecular Spectroscopy",
-        "description": "Analyzing molecules using spectroscopic techniques.",
-        "module": "M603"
-      },
-      {
-        "_id": "L809",
-        "name": "Quantum Mechanical Models",
-        "description": "Models used to describe molecular behavior.",
-        "module": "M603"
-      }
-    ]
-  },
-    
-  {
-    "_id": "M701",
-    "name": "Introduction to Elvish Languages",
-    "description": "Study of the structure, grammar, and vocabulary of Elvish languages.",
-    "course": "RS107",
-    "lessons": [
-      {
-        "_id": "L901",
-        "name": "Sindarin Basics",
-        "description": "Fundamentals of Sindarin, the language of the Grey Elves.",
-        "module": "M701"
-      },
-      {
-        "_id": "L902",
-        "name": "Quenya Grammar",
-        "description": "Understanding the structure of Quenya, the High Elvish tongue.",
-        "module": "M701"
-      },
-      {
-        "_id": "L903",
-        "name": "Writing in Tengwar",
-        "description": "Learning the Elvish script system for writing Sindarin and Quenya.",
-        "module": "M701"
-      }
-    ]
+      "name": "Aerodynamics",
+      "description": "Comprehensive exploration of aerodynamics, focusing on airflow and its effects on flying objects.",
+      "course": "67511703f69ec08cc3326481",
+      "lessons": [
+          {
+              "name": "Introduction to Aerodynamics",
+              "description": "Basic principles of aerodynamics and fluid dynamics.",
+              "module": "M10203"
+          },
+          {
+              "name": "Airfoil Design",
+              "description": "Study of airfoil shapes and their effects on lift and drag.",
+              "module": "M10203"
+          },
+          {
+              "name": "Lift and Drag Forces",
+              "description": "Exploration of lift and drag forces acting on flying objects.",
+              "module": "M10203"
+          }
+      ]
   },
   {
-    "_id": "M702",
-    "name": "Dwarvish Language and Scripts",
-    "description": "Exploration of the Khuzdul language and its usage.",
-    "course": "RS107",
-    "lessons": [
-      {
-        "_id": "L904",
-        "name": "Introduction to Khuzdul",
-        "description": "Basics of the secretive Dwarvish language.",
-        "module": "M702"
-      },
-      {
-        "_id": "L905",
-        "name": "Runes of Moria",
-        "description": "Learning the Cirth script used by Dwarves.",
-        "module": "M702"
-      },
-      {
-        "_id": "L906",
-        "name": "Khuzdul Phrases and Usage",
-        "description": "Common phrases and historical context of Khuzdul.",
-        "module": "M702"
-      }
-    ]
+      "name": "Spacecraft Design",
+      "description": "Detailed understanding of spacecraft systems, focusing on propulsion, power systems, and payload integration.",
+      "course": "67511703f69ec08cc3326482",
+      "lessons": [
+          {
+              "name": "Introduction to Spacecraft Design",
+              "description": "Overview of spacecraft systems and their components.",
+              "module": "M10301"
+          },
+          {
+              "name": "Propulsion Systems",
+              "description": "Study of propulsion systems used in spacecraft.",
+              "module": "M10301"
+          },
+          {
+              "name": "Payload Integration",
+              "description": "Focus on how payloads are integrated into spacecraft systems.",
+              "module": "M10301"
+          }
+      ]
   },
   {
-    "_id": "M703",
-    "name": "The Black Speech of Mordor",
-    "description": "Understanding the language of Sauron's minions.",
-    "course": "RS107",
-    "lessons": [
-      {
-        "_id": "L907",
-        "name": "Origins of the Black Speech",
-        "description": "History and creation of the Black Speech.",
-        "module": "M703"
-      },
-      {
-        "_id": "L908",
-        "name": "Phonetics and Pronunciation",
-        "description": "Learning to pronounce phrases in the Black Speech.",
-        "module": "M703"
-      },
-      {
-        "_id": "L909",
-        "name": "Inscription and Translation",
-        "description": "Translating and understanding the Black Speech inscriptions.",
-        "module": "M703"
-      }
-    ]
-  },
-
-  {
-    "_id": "M801",
-    "name": "Historical Alliances and Conflicts",
-    "description": "Study of alliances and wars among the races of Middle-earth.",
-    "course": "RS108",
-    "lessons": [
-      {
-        "_id": "L1001",
-        "name": "The Last Alliance",
-        "description": "The alliance between Elves and Men against Sauron.",
-        "module": "M801"
-      },
-      {
-        "_id": "L1002",
-        "name": "The War of the Dwarves and Orcs",
-        "description": "A study of the conflict between Dwarves and Orcs.",
-        "module": "M801"
-      },
-      {
-        "_id": "L1003",
-        "name": "The Council of Elrond",
-        "description": "The diplomatic gathering to decide the fate of the One Ring.",
-        "module": "M801"
-      }
-    ]
+      "name": "Spacecraft Design",
+      "description": "Detailed understanding of spacecraft systems, focusing on propulsion, power systems, and payload integration.",
+      "course": "67511703f69ec08cc3326482",
+      "lessons": [
+          {
+              "name": "Introduction to Spacecraft Design",
+              "description": "Overview of spacecraft systems and their components.",
+              "module": "M10302"
+          },
+          {
+              "name": "Propulsion Systems",
+              "description": "Study of propulsion systems used in spacecraft.",
+              "module": "M10302"
+          },
+          {
+              "name": "Payload Integration",
+              "description": "Focus on how payloads are integrated into spacecraft systems.",
+              "module": "M10302"
+          }
+      ]
   },
   {
-    "_id": "M802",
-    "name": "Leadership and Wisdom",
-    "description": "The role of leaders in shaping inter-species diplomacy.",
-    "course": "RS108",
-    "lessons": [
-      {
-        "_id": "L1004",
-        "name": "Elrond and Gandalf",
-        "description": "Leadership qualities of Elrond and Gandalf.",
-        "module": "M802"
-      },
-      {
-        "_id": "L1005",
-        "name": "Aragorn's Diplomacy",
-        "description": "Aragorn's role in uniting races against Sauron.",
-        "module": "M802"
-      },
-      {
-        "_id": "L1006",
-        "name": "The Role of Radagast",
-        "description": "Contributions of lesser-known leaders like Radagast.",
-        "module": "M802"
-      }
-    ]
+      "name": "Spacecraft Design",
+      "description": "Detailed understanding of spacecraft systems, focusing on propulsion, power systems, and payload integration.",
+      "course": "67511703f69ec08cc3326482",
+      "lessons": [
+          {
+              "name": "Introduction to Spacecraft Design",
+              "description": "Overview of spacecraft systems and their components.",
+              "module": "M10303"
+          },
+          {
+              "name": "Propulsion Systems",
+              "description": "Study of propulsion systems used in spacecraft.",
+              "module": "M10303"
+          },
+          {
+              "name": "Payload Integration",
+              "description": "Focus on how payloads are integrated into spacecraft systems.",
+              "module": "M10303"
+          }
+      ]
   },
   {
-    "_id": "M803",
-    "name": "Cultural Differences and Cooperation",
-    "description": "Understanding the cultural barriers and cooperation between species.",
-    "course": "RS108",
-    "lessons": [
-      {
-        "_id": "L1007",
-        "name": "Elvish Customs and Manners",
-        "description": "The role of Elvish culture in diplomacy.",
-        "module": "M803"
-      },
-      {
-        "_id": "L1008",
-        "name": "Dwarven Pride and Honor",
-        "description": "Cultural traits of Dwarves affecting diplomacy.",
-        "module": "M803"
-      },
-      {
-        "_id": "L1009",
-        "name": "Mistrust Among Species",
-        "description": "Overcoming mistrust to form alliances.",
-        "module": "M803"
-      }
-    ]
-  },
-
-
-  {
-    "_id": "M901",
-    "name": "The Origins of Magic in Middle-earth",
-    "description": "Exploring the sources and early practitioners of magic.",
-    "course": "RS109",
-    "lessons": [
-      {
-        "_id": "L1101",
-        "name": "Ainur and the Creation",
-        "description": "Understanding the role of Ainur in the world’s creation.",
-        "module": "M901"
-      },
-      {
-        "_id": "L1102",
-        "name": "Magic of the Elves",
-        "description": "The mystical abilities of Elves in Middle-earth.",
-        "module": "M901"
-      },
-      {
-        "_id": "L1103",
-        "name": "Wizards: Istari Order",
-        "description": "The origin and purpose of the Istari in Middle-earth.",
-        "module": "M901"
-      }
-    ]
+      "name": "Organic Chemistry",
+      "description": "Explores the structure, properties, and reactions of organic compounds and materials.",
+      "course": "67511703f69ec08cc3326483",
+      "lessons": [
+          {
+              "name": "Hydrocarbons",
+              "description": "Study of hydrocarbons and their reactions.",
+              "module": "M10401"
+          },
+          {
+              "name": "Functional Groups",
+              "description": "Explores the structure and behavior of various functional groups in organic molecules.",
+              "module": "M10401"
+          },
+          {
+              "name": "Organic Synthesis",
+              "description": "Introduction to organic synthesis techniques.",
+              "module": "M10401"
+          }
+      ]
   },
   {
-    "_id": "M902",
-    "name": "Artifacts of Power",
-    "description": "Study of magical artifacts and their influence.",
-    "course": "RS109",
-    "lessons": [
-      {
-        "_id": "L1104",
-        "name": "The Rings of Power",
-        "description": "The history and purpose of the Rings.",
-        "module": "M902"
-      },
-      {
-        "_id": "L1105",
-        "name": "Palantíri: Seeing Stones",
-        "description": "The history and usage of the Palantíri.",
-        "module": "M902"
-      },
-      {
-        "_id": "L1106",
-        "name": "Weapons of Power",
-        "description": "Magical swords and weapons of Middle-earth.",
-        "module": "M902"
-      }
-    ]
+      "name": "Organic Chemistry",
+      "description": "Explores the structure, properties, and reactions of organic compounds and materials.",
+      "course": "67511703f69ec08cc3326483",
+      "lessons": [
+          {
+              "name": "Hydrocarbons",
+              "description": "Study of hydrocarbons and their reactions.",
+              "module": "M10402"
+          },
+          {
+              "name": "Functional Groups",
+              "description": "Explores the structure and behavior of various functional groups in organic molecules.",
+              "module": "M10402"
+          },
+          {
+              "name": "Organic Synthesis",
+              "description": "Introduction to organic synthesis techniques.",
+              "module": "M10402"
+          }
+      ]
   },
   {
-    "_id": "M903",
-    "name": "The Ethics of Magic",
-    "description": "Philosophical and ethical considerations of magic use.",
-    "course": "RS109",
-    "lessons": [
-      {
-        "_id": "L1107",
-        "name": "Good vs. Evil: A Balance of Power",
-        "description": "How magic reflects moral and ethical choices.",
-        "module": "M903"
-      },
-      {
-        "_id": "L1108",
-        "name": "The Temptation of Power",
-        "description": "Understanding the corruptive nature of magic.",
-        "module": "M903"
-      },
-      {
-        "_id": "L1109",
-        "name": "Responsible Use of Magic",
-        "description": "The duty of wielders of magical powers.",
-        "module": "M903"
-      }
-    ]
-  },
-
-
-  {
-    "_id": "M1001",
-    "name": "Foundations of Democratic Education",
-    "description": "Introduction to the core principles and history of democratic education.",
-    "course": "RS110",
-    "lessons": [
-      {
-        "_id": "L1201",
-        "name": "Historical Evolution",
-        "description": "The development of democratic education over time.",
-        "module": "M1001"
-      },
-      {
-        "_id": "L1202",
-        "name": "Key Philosophers",
-        "description": "Philosophical figures who contributed to democratic education.",
-        "module": "M1001"
-      },
-      {
-        "_id": "L1203",
-        "name": "Core Democratic Values",
-        "description": "Values such as freedom, equality, and participation in education.",
-        "module": "M1001"
-      }
-    ]
+      "name": "Organic Chemistry",
+      "description": "Explores the structure, properties, and reactions of organic compounds and materials.",
+      "course": "67511703f69ec08cc3326483",
+      "lessons": [
+          {
+              "name": "Hydrocarbons",
+              "description": "Study of hydrocarbons and their reactions.",
+              "module": "M10403"
+          },
+          {
+              "name": "Functional Groups",
+              "description": "Explores the structure and behavior of various functional groups in organic molecules.",
+              "module": "M10403"
+          },
+          {
+              "name": "Organic Synthesis",
+              "description": "Introduction to organic synthesis techniques.",
+              "module": "M10403"
+          }
+      ]
   },
   {
-    "_id": "M1002",
-    "name": "Participatory Learning Methods",
-    "description": "Engaging students through participatory and inclusive learning approaches.",
-    "course": "RS110",
-    "lessons": [
-      {
-        "_id": "L1204",
-        "name": "Collaborative Learning",
-        "description": "Techniques to foster group collaboration and teamwork.",
-        "module": "M1002"
-      },
-      {
-        "_id": "L1205",
-        "name": "Peer-to-Peer Education",
-        "description": "Students teaching and learning from each other.",
-        "module": "M1002"
-      },
-      {
-        "_id": "L1206",
-        "name": "Classroom Discussions",
-        "description": "Encouraging open and respectful discussions on diverse viewpoints.",
-        "module": "M1002"
-      }
-    ]
+      "name": "Inorganic Chemistry",
+      "description": "Focuses on the properties, structures, and behaviors of inorganic compounds.",
+      "course": "67511703f69ec08cc3326484",
+      "lessons": [
+          {
+              "name": "Coordination Chemistry",
+              "description": "Study of coordination compounds and metal complexes.",
+              "module": "M10501"
+          },
+          {
+              "name": "Bonding Theories",
+              "description": "Introduction to bonding theories used in inorganic chemistry.",
+              "module": "M10501"
+          },
+          {
+              "name": "Crystal Field Theory",
+              "description": "Detailed exploration of crystal field theory and its applications.",
+              "module": "M10501"
+          }
+      ]
   },
   {
-    "_id": "M1003",
-    "name": "Challenges in Democratic Education",
-    "description": "Exploring barriers and solutions in implementing democratic education.",
-    "course": "RS110",
-    "lessons": [
-      {
-        "_id": "L1207",
-        "name": "Cultural Barriers",
-        "description": "Addressing cultural differences in a democratic classroom.",
-        "module": "M1003"
-      },
-      {
-        "_id": "L1208",
-        "name": "Educational Inequality",
-        "description": "The impact of socio-economic inequality on educational access.",
-        "module": "M1003"
-      },
-      {
-        "_id": "L1209",
-        "name": "Policy and Implementation",
-        "description": "Policy challenges in adopting democratic education models.",
-        "module": "M1003"
-      }
-    ]
-  },
-
-
-  {
-
-    "_id": "M1101",
-    "name": "Theories of Independence",
-    "description": "Study of key ideologies that shaped independence movements.",
-    "course": "RS111",
-    "lessons": [
-      {
-        "_id": "L1301",
-        "name": "Enlightenment Thought",
-        "description": "The influence of Enlightenment ideals on liberation movements.",
-        "module": "M1101"
-      },
-      {
-        "_id": "L1302",
-        "name": "Marxism and Socialism",
-        "description": "Understanding the role of Marxist ideology in independence movements.",
-        "module": "M1101"
-      },
-      {
-        "_id": "L1303",
-        "name": "Nationalism",
-        "description": "The rise of nationalism and its impact on global liberation.",
-        "module": "M1101"
-      }
-    ]
+      "name": "Inorganic Chemistry",
+      "description": "Focuses on the properties, structures, and behaviors of inorganic compounds.",
+      "course": "67511703f69ec08cc3326484",
+      "lessons": [
+          {
+              "name": "Coordination Chemistry",
+              "description": "Study of coordination compounds and metal complexes.",
+              "module": "M10502"
+          },
+          {
+              "name": "Bonding Theories",
+              "description": "Introduction to bonding theories used in inorganic chemistry.",
+              "module": "M10502"
+          },
+          {
+              "name": "Crystal Field Theory",
+              "description": "Detailed exploration of crystal field theory and its applications.",
+              "module": "M10502"
+          }
+      ]
   },
   {
-    "_id": "M1102",
-    "name": "Latin American Independence Movements",
-    "description": "A focus on the history and philosophy behind Latin American independence.",
-    "course": "RS111",
-    "lessons": [
-      {
-        "_id": "L1304",
-        "name": "The Role of Simón Bolívar",
-        "description": "Examining the leadership of Simón Bolívar in South American liberation.",
-        "module": "M1102"
-      },
-      {
-        "_id": "L1305",
-        "name": "The Haitian Revolution",
-        "description": "The significance of the Haitian Revolution in global independence.",
-        "module": "M1102"
-      },
-      {
-        "_id": "L1306",
-        "name": "Post-Independence Challenges",
-        "description": "Issues faced by newly independent nations in Latin America.",
-        "module": "M1102"
-      }
-    ]
+      "name": "Inorganic Chemistry",
+      "description": "Focuses on the properties, structures, and behaviors of inorganic compounds.",
+      "course": "67511703f69ec08cc3326484",
+      "lessons": [
+          {
+              "name": "Coordination Chemistry",
+              "description": "Study of coordination compounds and metal complexes.",
+              "module": "M10503"
+          },
+          {
+              "name": "Bonding Theories",
+              "description": "Introduction to bonding theories used in inorganic chemistry.",
+              "module": "M10503"
+          },
+          {
+              "name": "Crystal Field Theory",
+              "description": "Detailed exploration of crystal field theory and its applications.",
+              "module": "M10503"
+          }
+      ]
   },
   {
-    "_id": "M1103",
-    "name": "Contemporary Liberation Movements",
-    "description": "Modern perspectives on freedom, autonomy, and national identity.",
-    "course": "RS111",
-    "lessons": [
-      {
-        "_id": "L1307",
-        "name": "Decolonization",
-        "description": "Post-World War II decolonization movements across Asia and Africa.",
-        "module": "M1103"
-      },
-      {
-        "_id": "L1308",
-        "name": "Civil Rights Movements",
-        "description": "The fight for civil rights and equality in the 20th century.",
-        "module": "M1103"
-      },
-      {
-        "_id": "L1309",
-        "name": "Independence in the Modern Era",
-        "description": "Examining contemporary movements for independence and self-determination.",
-        "module": "M1103"
-      }
-    ]
-  },
-
-  
-  {
-    "_id": "M1201",
-    "name": "Educational Reformers of the 19th Century",
-    "description": "Focus on key individuals who pioneered educational reforms.",
-    "course": "RS112",
-    "lessons": [
-      {
-        "_id": "L1401",
-        "name": "Simon Rodríguez",
-        "description": "Innovations introduced by Simon Rodríguez in Latin America.",
-        "module": "M1201"
-      },
-      {
-        "_id": "L1402",
-        "name": "Johann Pestalozzi",
-        "description": "Educational approaches developed by Johann Pestalozzi.",
-        "module": "M1201"
-      },
-      {
-        "_id": "L1403",
-        "name": "Horace Mann",
-        "description": "The impact of Horace Mann on public education in the U.S.",
-        "module": "M1201"
-      }
-    ]
+      "name": "Physical Chemistry",
+      "description": "Study of the physical properties of molecules and the chemical reactions they undergo.",
+      "course": "67511703f69ec08cc3326485",
+      "lessons": [
+          {
+              "name": "Thermodynamics",
+              "description": "Introduction to thermodynamics and its application to chemistry.",
+              "module": "M10601"
+          },
+          {
+              "name": "Kinetics",
+              "description": "Study of reaction rates and the factors that influence them.",
+              "module": "M10601"
+          },
+          {
+              "name": "Quantum Chemistry",
+              "description": "Overview of quantum mechanics in the context of chemistry.",
+              "module": "M10601"
+          }
+      ]
   },
   {
-    "_id": "M1202",
-    "name": "Innovative Pedagogical Methods",
-    "description": "New teaching methods and their effects on learning.",
-    "course": "RS112",
-    "lessons": [
-      {
-        "_id": "L1404",
-        "name": "Practical Education",
-        "description": "Emphasis on hands-on learning and real-world applications.",
-        "module": "M1202"
-      },
-      {
-        "_id": "L1405",
-        "name": "The Monitorial System",
-        "description": "Peer teaching methods in 19th-century schools.",
-        "module": "M1202"
-      },
-      {
-        "_id": "L1406",
-        "name": "Education for All",
-        "description": "Efforts to make education accessible to broader populations.",
-        "module": "M1202"
-      }
-    ]
+      "name": "Physical Chemistry",
+      "description": "Study of the physical properties of molecules and the chemical reactions they undergo.",
+      "course": "67511703f69ec08cc3326485",
+      "lessons": [
+          {
+              "name": "Thermodynamics",
+              "description": "Introduction to thermodynamics and its application to chemistry.",
+              "module": "M10602"
+          },
+          {
+              "name": "Kinetics",
+              "description": "Study of reaction rates and the factors that influence them.",
+              "module": "M10602"
+          },
+          {
+              "name": "Quantum Chemistry",
+              "description": "Overview of quantum mechanics in the context of chemistry.",
+              "module": "M10602"
+          }
+      ]
   },
   {
-    "_id": "M1203",
-    "name": "Legacy of 19th Century Education",
-    "description": "How 19th-century educational reforms shaped modern schooling.",
-    "course": "RS112",
-    "lessons": [
-      {
-        "_id": "L1407",
-        "name": "Universal Education",
-        "description": "The spread of compulsory education globally.",
-        "module": "M1203"
-      },
-      {
-        "_id": "L1408",
-        "name": "Progressive Education Movement",
-        "description": "The influence of 19th-century innovations on progressive education.",
-        "module": "M1203"
-      },
-      {
-        "_id": "L1409",
-        "name": "Lasting Impacts",
-        "description": "The long-term effects of early innovations on today's education systems.",
-        "module": "M1203"
-      }
-    ]
-  },
-
-
-  {
-    "_id": "M1301",
-    "name": "Biblical Foundations of Ethics",
-    "description": "Exploring ethical principles from the Old and New Testaments.",
-    "course": "RS113",
-    "lessons": [
-      {
-        "_id": "L1501",
-        "name": "Ethics in the Old Testament",
-        "description": "Moral teachings and laws from the Old Testament.",
-        "module": "M1301"
-      },
-      {
-        "_id": "L1502",
-        "name": "Teachings of Jesus",
-        "description": "Ethical guidance from the teachings of Jesus Christ.",
-        "module": "M1301"
-      },
-      {
-        "_id": "L1503",
-        "name": "Pauline Ethics",
-        "description": "The ethical teachings found in the letters of Paul.",
-        "module": "M1301"
-      }
-    ]
+      "name": "Physical Chemistry",
+      "description": "Study of the physical properties of molecules and the chemical reactions they undergo.",
+      "course": "67511703f69ec08cc3326485",
+      "lessons": [
+          {
+              "name": "Thermodynamics",
+              "description": "Introduction to thermodynamics and its application to chemistry.",
+              "module": "M10603"
+          },
+          {
+              "name": "Kinetics",
+              "description": "Study of reaction rates and the factors that influence them.",
+              "module": "M10603"
+          },
+          {
+              "name": "Quantum Chemistry",
+              "description": "Overview of quantum mechanics in the context of chemistry.",
+              "module": "M10603"
+          }
+      ]
   },
   {
-    "_id": "M1302",
-    "name": "Virtues and Moral Decision-Making",
-    "description": "Understanding key virtues and the process of ethical decision-making.",
-    "course": "RS113",
-    "lessons": [
-      {
-        "_id": "L1504",
-        "name": "Cardinal and Theological Virtues",
-        "description": "Exploration of key virtues in Christian ethics.",
-        "module": "M1302"
-      },
-      {
-        "_id": "L1505",
-        "name": "Moral Conscience",
-        "description": "The role of conscience in making ethical decisions.",
-        "module": "M1302"
-      },
-      {
-        "_id": "L1506",
-        "name": "Ethical Dilemmas",
-        "description": "Approaching complex moral issues from a Christian perspective.",
-        "module": "M1302"
-      }
-    ]
+      "name": "Ancient Languages and Scripts of Middle-earth",
+      "description": "Exploration of Elvish, Dwarvish, and other languages of Middle-earth.",
+      "course": "67511703f69ec08cc3326486",
+      "lessons": [
+          {
+              "name": "Introduction to Elvish",
+              "description": "Study of Elvish (Sindarin and Quenya) languages and their usage.",
+              "module": "M10701"
+          },
+          {
+              "name": "Dwarvish Language",
+              "description": "Study of the Dwarvish language (Khuzdul) and its cultural context.",
+              "module": "M10701"
+          },
+          {
+              "name": "Black Speech of Mordor",
+              "description": "Exploration of the Black Speech and its usage in Middle-earth.",
+              "module": "M10701"
+          }
+      ]
   },
   {
-    "_id": "M1303",
-    "name": "Christian Ethics in Modern Society",
-    "description": "Applying Christian ethical principles to contemporary issues.",
-    "course": "RS113",
-    "lessons": [
-      {
-        "_id": "L1507",
-        "name": "Social Justice and Charity",
-        "description": "The Christian approach to social justice and helping others.",
-        "module": "M1303"
-      },
-      {
-        "_id": "L1508",
-        "name": "Bioethics and Technology",
-        "description": "Ethical considerations in medicine and technology from a Christian perspective.",
-        "module": "M1303"
-      },
-      {
-        "_id": "L1509",
-        "name": "Environmental Stewardship",
-        "description": "Christian teachings on caring for the environment.",
-        "module": "M1303"
-      }
-    ]
-  },
-
-
-  {
-    "_id": "M1401",
-    "name": "The Life and Teachings of Jesus",
-    "description": "Exploring the historical and spiritual context of Jesus' ministry.",
-    "course": "RS114",
-    "lessons": [
-      {
-        "_id": "L1601",
-        "name": "Historical Background",
-        "description": "The social and political setting during the time of Jesus.",
-        "module": "M1401"
-      },
-      {
-        "_id": "L1602",
-        "name": "The Parables of Jesus",
-        "description": "An exploration of the parables and their meanings.",
-        "module": "M1401"
-      },
-      {
-        "_id": "L1603",
-        "name": "The Crucifixion and Resurrection",
-        "description": "The significance of Jesus' death and resurrection.",
-        "module": "M1401"
-      }
-    ]
+      "name": "Ancient Languages and Scripts of Middle-earth",
+      "description": "Exploration of Elvish, Dwarvish, and other languages of Middle-earth.",
+      "course": "67511703f69ec08cc3326486",
+      "lessons": [
+          {
+              "name": "Introduction to Elvish",
+              "description": "Study of Elvish (Sindarin and Quenya) languages and their usage.",
+              "module": "M10702"
+          },
+          {
+              "name": "Dwarvish Language",
+              "description": "Study of the Dwarvish language (Khuzdul) and its cultural context.",
+              "module": "M10702"
+          },
+          {
+              "name": "Black Speech of Mordor",
+              "description": "Exploration of the Black Speech and its usage in Middle-earth.",
+              "module": "M10702"
+          }
+      ]
   },
   {
-    "_id": "M1402",
-    "name": "The Apostles and the Early Church",
-    "description": "The role of the Apostles in spreading Christianity.",
-    "course": "RS114",
-    "lessons": [
-      {
-        "_id": "L1604",
-        "name": "The Acts of the Apostles",
-        "description": "Key events and figures in the early Christian community.",
-        "module": "M1402"
-      },
-      {
-        "_id": "L1605",
-        "name": "Paul's Missionary Journeys",
-        "description": "The travels and teachings of the Apostle Paul.",
-        "module": "M1402"
-      },
-      {
-        "_id": "L1606",
-        "name": "The Early Christian Martyrs",
-        "description": "The role of martyrdom in the growth of Christianity.",
-        "module": "M1402"
-      }
-    ]
+      "name": "Ancient Languages and Scripts of Middle-earth",
+      "description": "Exploration of Elvish, Dwarvish, and other languages of Middle-earth.",
+      "course": "67511703f69ec08cc3326486",
+      "lessons": [
+          {
+              "name": "Introduction to Elvish",
+              "description": "Study of Elvish (Sindarin and Quenya) languages and their usage.",
+              "module": "M10703"
+          },
+          {
+              "name": "Dwarvish Language",
+              "description": "Study of the Dwarvish language (Khuzdul) and its cultural context.",
+              "module": "M10703"
+          },
+          {
+              "name": "Black Speech of Mordor",
+              "description": "Exploration of the Black Speech and its usage in Middle-earth.",
+              "module": "M10703"
+          }
+      ]
   },
   {
-    "_id": "M1403",
-    "name": "Formation of Christian Doctrine",
-    "description": "How the core beliefs of Christianity were established.",
-    "course": "RS114",
-    "lessons": [
-      {
-        "_id": "L1607",
-        "name": "The Nicene Creed",
-        "description": "The development and significance of the Nicene Creed.",
-        "module": "M1403"
-      },
-      {
-        "_id": "L1608",
-        "name": "Early Heresies",
-        "description": "Understanding early challenges to orthodox Christianity.",
-        "module": "M1403"
-      },
-      {
-        "_id": "L1609",
-        "name": "The Councils of the Church",
-        "description": "Key decisions and debates in the early Church councils.",
-        "module": "M1403"
-      }
-    ]
-  },
-
-  {
-    "_id": "M1501",
-    "name": "Biblical Leadership Models",
-    "description": "Exploring examples of leadership from the Bible.",
-    "course": "RS115",
-    "lessons": [
-      {
-        "_id": "L1701",
-        "name": "The Leadership of Moses",
-        "description": "Lessons from Moses' leadership during the Exodus.",
-        "module": "M1501"
-      },
-      {
-        "_id": "L1702",
-        "name": "The Role of Prophets",
-        "description": "How prophets served as leaders and guides.",
-        "module": "M1501"
-      },
-      {
-        "_id": "L1703",
-        "name": "The Servant Leadership of Jesus",
-        "description": "Understanding the concept of servant leadership as taught by Jesus.",
-        "module": "M1501"
-      }
-    ]
+      "name": "Wizards, Elves, and Men: Inter-species Diplomacy in Middle-earth",
+      "description": "Exploration of diplomatic relationships among different races of Middle-earth.",
+      "course": "67511703f69ec08cc3326487",
+      "lessons": [
+          {
+              "name": "Council of Elrond",
+              "description": "Study of the Council of Elrond and its diplomatic importance.",
+              "module": "M10801"
+          },
+          {
+              "name": "Alliances and Conflicts",
+              "description": "Exploration of alliances and conflicts among Elves, Men, and other races.",
+              "module": "M10801"
+          },
+          {
+              "name": "Leadership and Wisdom",
+              "description": "Study of leadership styles in multi-species diplomacy.",
+              "module": "M10801"
+          }
+      ]
   },
   {
-    "_id": "M1502",
-    "name": "Practical Aspects of Community Leadership",
-    "description": "Skills and practices for effective leadership in Christian communities.",
-    "course": "RS115",
-    "lessons": [
-      {
-        "_id": "L1704",
-        "name": "Pastoral Care",
-        "description": "The importance of providing spiritual and emotional support.",
-        "module": "M1502"
-      },
-      {
-        "_id": "L1705",
-        "name": "Conflict Resolution",
-        "description": "Techniques for managing conflicts within a community.",
-        "module": "M1502"
-      },
-      {
-        "_id": "L1706",
-        "name": "Event Organization and Management",
-        "description": "Organizing events and activities to foster community engagement.",
-        "module": "M1502"
-      }
-    ]
+      "name": "Wizards, Elves, and Men: Inter-species Diplomacy in Middle-earth",
+      "description": "Exploration of diplomatic relationships among different races of Middle-earth.",
+      "course": "67511703f69ec08cc3326487",
+      "lessons": [
+          {
+              "name": "Council of Elrond",
+              "description": "Study of the Council of Elrond and its diplomatic importance.",
+              "module": "M10802"
+          },
+          {
+              "name": "Alliances and Conflicts",
+              "description": "Exploration of alliances and conflicts among Elves, Men, and other races.",
+              "module": "M10802"
+          },
+          {
+              "name": "Leadership and Wisdom",
+              "description": "Study of leadership styles in multi-species diplomacy.",
+              "module": "M10802"
+          }
+      ]
   },
   {
-    "_id": "M1503",
-    "name": "Service and Stewardship",
-    "description": "Promoting a culture of service and responsible stewardship.",
-    "course": "RS115",
-    "lessons": [
-      {
-        "_id": "L1707",
-        "name": "Charity and Outreach Programs",
-        "description": "Developing and managing charity and outreach initiatives.",
-        "module": "M1503"
-      },
-      {
-        "_id": "L1708",
-        "name": "Sustainable Stewardship",
-        "description": "Responsible management of resources within the church.",
-        "module": "M1503"
-      },
-      {
-        "_id": "L1709",
-        "name": "Volunteer Coordination",
-        "description": "Recruiting, training, and organizing volunteers for service.",
-        "module": "M1503"
-      }
-    ]
-  },
-
-  
-  {
-    "_id": "M1601",
-    "name": "Introduction to Sufism",
-    "description": "Basic principles, history, and development of Sufi traditions.",
-    "course": "RS116",
-    "lessons": [
-      {
-        "_id": "L1801",
-        "name": "Origins of Sufism",
-        "description": "Historical roots and evolution of Sufi philosophy.",
-        "module": "M1601"
-      },
-      {
-        "_id": "L1802",
-        "name": "Key Sufi Figures",
-        "description": "An overview of influential Sufi mystics such as Rumi and Hafiz.",
-        "module": "M1601"
-      },
-      {
-        "_id": "L1803",
-        "name": "Principles of Sufi Thought",
-        "description": "Core beliefs such as divine love, unity, and spiritual journey.",
-        "module": "M1601"
-      }
-    ]
+      "name": "Wizards, Elves, and Men: Inter-species Diplomacy in Middle-earth",
+      "description": "Exploration of diplomatic relationships among different races of Middle-earth.",
+      "course": "67511703f69ec08cc3326487",
+      "lessons": [
+          {
+              "name": "Council of Elrond",
+              "description": "Study of the Council of Elrond and its diplomatic importance.",
+              "module": "M10803"
+          },
+          {
+              "name": "Alliances and Conflicts",
+              "description": "Exploration of alliances and conflicts among Elves, Men, and other races.",
+              "module": "M10803"
+          },
+          {
+              "name": "Leadership and Wisdom",
+              "description": "Study of leadership styles in multi-species diplomacy.",
+              "module": "M10803"
+          }
+      ]
   },
   {
-    "_id": "M1602",
-    "name": "Rituals and Practices",
-    "description": "The spiritual practices used in Sufi traditions to achieve divine connection.",
-    "course": "RS116",
-    "lessons": [
-      {
-        "_id": "L1804",
-        "name": "Sama and Dhikr",
-        "description": "The practices of Sufi chanting, music, and meditation.",
-        "module": "M1602"
-      },
-      {
-        "_id": "L1805",
-        "name": "Spiritual Retreat (Khalwa)",
-        "description": "The role of isolation and contemplation in Sufi spirituality.",
-        "module": "M1602"
-      },
-      {
-        "_id": "L1806",
-        "name": "Poetry as Devotion",
-        "description": "The use of poetry in expressing spiritual truths and love for the divine.",
-        "module": "M1602"
-      }
-    ]
+      "name": "History and Practice of Middle-earth Magic",
+      "description": "Study of magical beings and artifacts in Middle-earth.",
+      "course": "67511703f69ec08cc3326488",
+      "lessons": [
+          {
+              "name": "Wizards and Elves",
+              "description": "Study of magical powers held by Wizards and Elves.",
+              "module": "M10901"
+          },
+          {
+              "name": "Rings of Power",
+              "description": "Exploration of the Rings of Power and their influence in Middle-earth.",
+              "module": "M10901"
+          },
+          {
+              "name": "Philosophy of Magic",
+              "description": "Philosophical and ethical dimensions of magic in Middle-earth.",
+              "module": "M10901"
+          }
+      ]
   },
   {
-    "_id": "M1603",
-    "name": "Mystical Philosophy and Teachings",
-    "description": "Exploration of deeper philosophical aspects of Sufism.",
-    "course": "RS116",
-    "lessons": [
-      {
-        "_id": "L1807",
-        "name": "Concept of Tawhid (Unity of God)",
-        "description": "Understanding the oneness of God as central to Sufi thought.",
-        "module": "M1603"
-      },
-      {
-        "_id": "L1808",
-        "name": "The Journey of the Soul",
-        "description": "Stages of spiritual development and self-purification.",
-        "module": "M1603"
-      },
-      {
-        "_id": "L1809",
-        "name": "The Symbolism in Sufi Texts",
-        "description": "Decoding metaphors and symbols used in Sufi literature.",
-        "module": "M1603"
-      }
-    ]
-  },
-  
-  {
-    "_id": "M1701",
-    "name": "Foundations of Islamic Ethics",
-    "description": "Core ethical principles from the Quran and Hadith.",
-    "course": "RS117",
-    "lessons": [
-      {
-        "_id": "L1901",
-        "name": "Ethics in the Quran",
-        "description": "Moral teachings and values from the Quran.",
-        "module": "M1701"
-      },
-      {
-        "_id": "L1902",
-        "name": "The Life and Sayings of the Prophet (Hadith)",
-        "description": "Ethical lessons from the life and words of the Prophet Muhammad.",
-        "module": "M1701"
-      },
-      {
-        "_id": "L1903",
-        "name": "The Five Pillars and Ethics",
-        "description": "How the fundamental practices of Islam guide ethical behavior.",
-        "module": "M1701"
-      }
-    ]
+      "name": "History and Practice of Middle-earth Magic",
+      "description": "Study of magical beings and artifacts in Middle-earth.",
+      "course": "67511703f69ec08cc3326488",
+      "lessons": [
+          {
+              "name": "Wizards and Elves",
+              "description": "Study of magical powers held by Wizards and Elves.",
+              "module": "M10902"
+          },
+          {
+              "name": "Rings of Power",
+              "description": "Exploration of the Rings of Power and their influence in Middle-earth.",
+              "module": "M10902"
+          },
+          {
+              "name": "Philosophy of Magic",
+              "description": "Philosophical and ethical dimensions of magic in Middle-earth.",
+              "module": "M10902"
+          }
+      ]
   },
   {
-    "_id": "M1702",
-    "name": "Islamic Philosophy and Morality",
-    "description": "Exploration of the philosophical basis of Islamic ethics.",
-    "course": "RS117",
-    "lessons": [
-      {
-        "_id": "L1904",
-        "name": "Free Will and Divine Guidance",
-        "description": "Balancing personal choice with divine guidance in Islamic thought.",
-        "module": "M1702"
-      },
-      {
-        "_id": "L1905",
-        "name": "Justice and Mercy",
-        "description": "Central values of justice, fairness, and compassion in Islam.",
-        "module": "M1702"
-      },
-      {
-        "_id": "L1906",
-        "name": "The Role of Reason (‘Aql) in Ethics",
-        "description": "The importance of reasoning and intellect in Islamic ethical practice.",
-        "module": "M1702"
-      }
-    ]
+      "name": "History and Practice of Middle-earth Magic",
+      "description": "Study of magical beings and artifacts in Middle-earth.",
+      "course": "67511703f69ec08cc3326488",
+      "lessons": [
+          {
+              "name": "Wizards and Elves",
+              "description": "Study of magical powers held by Wizards and Elves.",
+              "module": "M10903"
+          },
+          {
+              "name": "Rings of Power",
+              "description": "Exploration of the Rings of Power and their influence in Middle-earth.",
+              "module": "M10903"
+          },
+          {
+              "name": "Philosophy of Magic",
+              "description": "Philosophical and ethical dimensions of magic in Middle-earth.",
+              "module": "M10903"
+          }
+      ]
   },
   {
-    "_id": "M1703",
-    "name": "Contemporary Ethical Issues",
-    "description": "Application of Islamic ethics to modern social and global issues.",
-    "course": "RS117",
-    "lessons": [
-      {
-        "_id": "L1907",
-        "name": "Bioethics and Islamic Perspectives",
-        "description": "Islamic views on issues like medical ethics, life, and death.",
-        "module": "M1703"
-      },
-      {
-        "_id": "L1908",
-        "name": "Environmental Stewardship in Islam",
-        "description": "Ethical responsibility towards nature and environment.",
-        "module": "M1703"
-      },
-      {
-        "_id": "L1909",
-        "name": "Human Rights and Social Justice",
-        "description": "Islamic principles concerning social justice, equity, and human rights.",
-        "module": "M1703"
-      }
-    ]
-  },
-
-  {
-    "_id": "M1801",
-    "name": "Introduction to Islamic Mysticism",
-    "description": "Basic concepts of the unseen in Islamic spirituality.",
-    "course": "RS118",
-    "lessons": [
-      {
-        "_id": "L2001",
-        "name": "The Concept of the Ghayb (Unseen)",
-        "description": "Understanding the unseen realms as mentioned in Islamic teachings.",
-        "module": "M1801"
-      },
-      {
-        "_id": "L2002",
-        "name": "Sufi Interpretation of the Unseen",
-        "description": "The mystical view of the spiritual realm in Sufism.",
-        "module": "M1801"
-      },
-      {
-        "_id": "L2003",
-        "name": "The Role of Angels and Jinn",
-        "description": "Islamic beliefs about angels, jinn, and other unseen beings.",
-        "module": "M1801"
-      }
-    ]
+      "name": "Principles of Democratic Education",
+      "description": "Study of educational principles in democratic societies.",
+      "course": "67511703f69ec08cc3326489",
+      "lessons": [
+          {
+              "name": "Democratic Schooling",
+              "description": "Exploration of models of democratic schooling.",
+              "module": "M11001"
+          },
+          {
+              "name": "Civic Responsibility",
+              "description": "Role of education in fostering civic responsibility.",
+              "module": "M11001"
+          },
+          {
+              "name": "Participatory Learning",
+              "description": "Study of participatory learning approaches in education.",
+              "module": "M11001"
+          }
+      ]
   },
   {
-    "_id": "M1802",
-    "name": "Spiritual Symbolism",
-    "description": "Exploration of symbols and metaphors in Islamic esoteric teachings.",
-    "course": "RS118",
-    "lessons": [
-      {
-        "_id": "L2004",
-        "name": "The Tree of Life",
-        "description": "Symbolic representation of growth, knowledge, and spirituality.",
-        "module": "M1802"
-      },
-      {
-        "_id": "L2005",
-        "name": "Numerology and Symbolic Numbers",
-        "description": "Significance of certain numbers in Islamic mysticism.",
-        "module": "M1802"
-      },
-      {
-        "_id": "L2006",
-        "name": "Light as a Spiritual Metaphor",
-        "description": "The concept of light representing divine knowledge and guidance.",
-        "module": "M1802"
-      }
-    ]
+      "name": "Principles of Democratic Education",
+      "description": "Study of educational principles in democratic societies.",
+      "course": "67511703f69ec08cc3326489",
+      "lessons": [
+          {
+              "name": "Democratic Schooling",
+              "description": "Exploration of models of democratic schooling.",
+              "module": "M11002"
+          },
+          {
+              "name": "Civic Responsibility",
+              "description": "Role of education in fostering civic responsibility.",
+              "module": "M11002"
+          },
+          {
+              "name": "Participatory Learning",
+              "description": "Study of participatory learning approaches in education.",
+              "module": "M11002"
+          }
+      ]
   },
   {
-    "_id": "M1803",
-    "name": "Experiences of the Mystical Journey",
-    "description": "Stages and descriptions of the spiritual journey in Islamic mysticism.",
-    "course": "RS118",
-    "lessons": [
-      {
-        "_id": "L2007",
-        "name": "The Journey to Divine Presence",
-        "description": "Understanding the path towards spiritual enlightenment.",
-        "module": "M1803"
-      },
-      {
-        "_id": "L2008",
-        "name": "The Role of Dreams and Visions",
-        "description": "The significance of spiritual experiences through dreams.",
-        "module": "M1803"
-      },
-      {
-        "_id": "L2009",
-        "name": "Stages of Spiritual Development",
-        "description": "Understanding key phases in the mystical journey of the soul.",
-        "module": "M1803"
-      }
-    ]
-  },
-
-
-  {
-    "_id": "M1901",
-    "name": "Water Management and Irrigation",
-    "description": "Exploring ancient Chinese techniques for water management.",
-    "course": "RS119",
-    "lessons": [
-      {
-        "_id": "L2101",
-        "name": "The Legacy of Yu the Great",
-        "description": "How Yu the Great pioneered flood control and irrigation.",
-        "module": "M1901"
-      },
-      {
-        "_id": "L2102",
-        "name": "Canal Systems in Ancient China",
-        "description": "Development and importance of canal systems for agriculture.",
-        "module": "M1901"
-      },
-      {
-        "_id": "L2103",
-        "name": "Reservoirs and Water Storage",
-        "description": "Techniques used to store and manage water in ancient China.",
-        "module": "M1901"
-      }
-    ]
+      "name": "Principles of Democratic Education",
+      "description": "Study of educational principles in democratic societies.",
+      "course": "67511703f69ec08cc3326489",
+      "lessons": [
+          {
+              "name": "Democratic Schooling",
+              "description": "Exploration of models of democratic schooling.",
+              "module": "M11003"
+          },
+          {
+              "name": "Civic Responsibility",
+              "description": "Role of education in fostering civic responsibility.",
+              "module": "M11003"
+          },
+          {
+              "name": "Participatory Learning",
+              "description": "Study of participatory learning approaches in education.",
+              "module": "M11003"
+          }
+      ]
   },
   {
-    "_id": "M1902",
-    "name": "Sustainable Agriculture Practices",
-    "description": "The principles and methods of sustainable farming in ancient China.",
-    "course": "RS119",
-    "lessons": [
-      {
-        "_id": "L2104",
-        "name": "Crop Rotation and Soil Conservation",
-        "description": "Methods to maintain soil fertility and improve crop yields.",
-        "module": "M1902"
-      },
-      {
-        "_id": "L2105",
-        "name": "Agroforestry Systems",
-        "description": "Integration of trees and crops for sustainable agriculture.",
-        "module": "M1902"
-      },
-      {
-        "_id": "L2106",
-        "name": "Pest Management Without Chemicals",
-        "description": "Natural methods for controlling pests in ancient agriculture.",
-        "module": "M1902"
-      }
-    ]
+      "name": "Philosophy of Independence and Liberation",
+      "description": "Study of philosophical underpinnings of independence and liberation movements, focusing on Latin American history.",
+      "course": "67511703f69ec08cc332648a",
+      "lessons": [
+          {
+              "name": "Enlightenment Thought",
+              "description": "Study of Enlightenment philosophies that fueled independence movements.",
+              "module": "M11101"
+          },
+          {
+              "name": "Key Figures in Latin American Independence",
+              "description": "Exploration of figures such as Sim\u00f3n Bol\u00edvar and their contributions.",
+              "module": "M11101"
+          },
+          {
+              "name": "Philosophical Concepts of Freedom",
+              "description": "Critical examination of freedom and autonomy in historical contexts.",
+              "module": "M11101"
+          }
+      ]
   },
   {
-    "_id": "M1903",
-    "name": "Traditional Chinese Philosophy and Ecology",
-    "description": "Understanding the ecological perspectives in traditional Chinese thought.",
-    "course": "RS119",
-    "lessons": [
-      {
-        "_id": "L2107",
-        "name": "Taoism and Natural Balance",
-        "description": "The concept of harmony with nature in Taoist philosophy.",
-        "module": "M1903"
-      },
-      {
-        "_id": "L2108",
-        "name": "Confucian Environmental Ethics",
-        "description": "Role of Confucian principles in environmental stewardship.",
-        "module": "M1903"
-      },
-      {
-        "_id": "L2109",
-        "name": "The Five Elements and Environmental Management",
-        "description": "Using the Five Elements theory to understand natural processes.",
-        "module": "M1903"
-      }
-    ]
-  },
-  
-  {
-    "_id": "M2001",
-    "name": "The Myth of Yu the Great",
-    "description": "Lessons from the legend of Yu the Great's leadership.",
-    "course": "RS120",
-    "lessons": [
-      {
-        "_id": "L2201",
-        "name": "The Story of Flood Control",
-        "description": "How Yu the Great’s efforts in flood control demonstrate leadership.",
-        "module": "M2001"
-      },
-      {
-        "_id": "L2202",
-        "name": "Perseverance and Resilience",
-        "description": "The importance of resilience in overcoming obstacles, as shown by Yu.",
-        "module": "M2001"
-      },
-      {
-        "_id": "L2203",
-        "name": "Ethical Governance",
-        "description": "Yu’s approach to leadership through ethical governance.",
-        "module": "M2001"
-      }
-    ]
+      "name": "Philosophy of Independence and Liberation",
+      "description": "Study of philosophical underpinnings of independence and liberation movements, focusing on Latin American history.",
+      "course": "67511703f69ec08cc332648a",
+      "lessons": [
+          {
+              "name": "Enlightenment Thought",
+              "description": "Study of Enlightenment philosophies that fueled independence movements.",
+              "module": "M11102"
+          },
+          {
+              "name": "Key Figures in Latin American Independence",
+              "description": "Exploration of figures such as Sim\u00f3n Bol\u00edvar and their contributions.",
+              "module": "M11102"
+          },
+          {
+              "name": "Philosophical Concepts of Freedom",
+              "description": "Critical examination of freedom and autonomy in historical contexts.",
+              "module": "M11102"
+          }
+      ]
   },
   {
-    "_id": "M2002",
-    "name": "Lessons from Other Mythological Figures",
-    "description": "Exploring leadership qualities from other Chinese mythological heroes.",
-    "course": "RS120",
-    "lessons": [
-      {
-        "_id": "L2204",
-        "name": "The Wisdom of the Yellow Emperor",
-        "description": "How the Yellow Emperor exemplifies strategic thinking.",
-        "module": "M2002"
-      },
-      {
-        "_id": "L2205",
-        "name": "Sun Wukong’s Resourcefulness",
-        "description": "Lessons in creativity and resourcefulness from the Monkey King.",
-        "module": "M2002"
-      },
-      {
-        "_id": "L2206",
-        "name": "Leadership and Sacrifice: Hou Yi",
-        "description": "The story of Hou Yi and his selfless actions as a leader.",
-        "module": "M2002"
-      }
-    ]
+      "name": "Philosophy of Independence and Liberation",
+      "description": "Study of philosophical underpinnings of independence and liberation movements, focusing on Latin American history.",
+      "course": "67511703f69ec08cc332648a",
+      "lessons": [
+          {
+              "name": "Enlightenment Thought",
+              "description": "Study of Enlightenment philosophies that fueled independence movements.",
+              "module": "M11103"
+          },
+          {
+              "name": "Key Figures in Latin American Independence",
+              "description": "Exploration of figures such as Sim\u00f3n Bol\u00edvar and their contributions.",
+              "module": "M11103"
+          },
+          {
+              "name": "Philosophical Concepts of Freedom",
+              "description": "Critical examination of freedom and autonomy in historical contexts.",
+              "module": "M11103"
+          }
+      ]
   },
   {
-    "_id": "M2003",
-    "name": "Cultural Values and Leadership",
-    "description": "Understanding how cultural values influence leadership styles.",
-    "course": "RS120",
-    "lessons": [
-      {
-        "_id": "L2207",
-        "name": "Filial Piety and Leadership",
-        "description": "The role of family values in shaping responsible leaders.",
-        "module": "M2003"
-      },
-      {
-        "_id": "L2208",
-        "name": "Collective Well-Being",
-        "description": "How Chinese mythological leaders prioritize the common good.",
-        "module": "M2003"
-      },
-      {
-        "_id": "L2209",
-        "name": "Virtue and Integrity",
-        "description": "The emphasis on moral virtues in leadership within Chinese mythology.",
-        "module": "M2003"
-      }
-    ]
-  },
-  
-  {
-    "_id": "M2101",
-    "name": "Engineering Achievements of Ancient China",
-    "description": "Focus on hydraulic engineering advancements during Yu the Great’s era.",
-    "course": "RS121",
-    "lessons": [
-      {
-        "_id": "L2301",
-        "name": "Flood Control Techniques",
-        "description": "Engineering methods used by Yu the Great for flood control.",
-        "module": "M2101"
-      },
-      {
-        "_id": "L2302",
-        "name": "The Dujiangyan Irrigation System",
-        "description": "An ancient Chinese engineering marvel still in use today.",
-        "module": "M2101"
-      },
-      {
-        "_id": "L2303",
-        "name": "Water Wheel and Hydraulic Power",
-        "description": "Early use of water wheels and hydraulic machines in China.",
-        "module": "M2101"
-      }
-    ]
+      "name": "Innovations in Early 19th Century Education",
+      "description": "Exploration of innovative educational practices and theories in the early 19th century.",
+      "course": "67511703f69ec08cc332648b",
+      "lessons": [
+          {
+              "name": "Simon Rodr\u00edguez\u2019s Contributions",
+              "description": "Study of educational reformers, with a focus on Simon Rodr\u00edguez.",
+              "module": "M11201"
+          },
+          {
+              "name": "Integration of Practical Knowledge",
+              "description": "Examination of practical versus theoretical educational methods.",
+              "module": "M11201"
+          },
+          {
+              "name": "Social Change through Education",
+              "description": "Role of education in fostering social change during the 19th century.",
+              "module": "M11201"
+          }
+      ]
   },
   {
-    "_id": "M2102",
-    "name": "Comparative Study: Hydraulic Engineering in Other Civilizations",
-    "description": "Exploring hydraulic engineering across different ancient cultures.",
-    "course": "RS121",
-    "lessons": [
-      {
-        "_id": "L2304",
-        "name": "Mesopotamian Canals and Dikes",
-        "description": "Water management practices in ancient Mesopotamia.",
-        "module": "M2102"
-      },
-      {
-        "_id": "L2305",
-        "name": "The Aqueducts of Ancient Rome",
-        "description": "How the Romans engineered one of the most advanced water systems.",
-        "module": "M2102"
-      },
-      {
-        "_id": "L2306",
-        "name": "Indus Valley Civilization’s Water Storage",
-        "description": "Techniques for managing water supply in the Indus Valley.",
-        "module": "M2102"
-      }
-    ]
+      "name": "Innovations in Early 19th Century Education",
+      "description": "Exploration of innovative educational practices and theories in the early 19th century.",
+      "course": "67511703f69ec08cc332648b",
+      "lessons": [
+          {
+              "name": "Simon Rodr\u00edguez\u2019s Contributions",
+              "description": "Study of educational reformers, with a focus on Simon Rodr\u00edguez.",
+              "module": "M11202"
+          },
+          {
+              "name": "Integration of Practical Knowledge",
+              "description": "Examination of practical versus theoretical educational methods.",
+              "module": "M11202"
+          },
+          {
+              "name": "Social Change through Education",
+              "description": "Role of education in fostering social change during the 19th century.",
+              "module": "M11202"
+          }
+      ]
   },
   {
-    "_id": "M2103",
-    "name": "Technological Legacy and Modern Applications",
-    "description": "The lasting influence of ancient hydraulic technologies on modern engineering.",
-    "course": "RS121",
-    "lessons": [
-      {
-        "_id": "L2307",
-        "name": "Relevance of Ancient Techniques Today",
-        "description": "How ancient techniques inspire modern water management solutions.",
-        "module": "M2103"
-      },
-      {
-        "_id": "L2308",
-        "name": "Sustainable Water Use",
-        "description": "Applying historical methods to promote sustainability.",
-        "module": "M2103"
-      },
-      {
-        "_id": "L2309",
-        "name": "Modern Hydraulic Engineering Projects",
-        "description": "Case studies of contemporary projects that use principles from the past.",
-        "module": "M2103"
-      }
-    ]
+      "name": "Innovations in Early 19th Century Education",
+      "description": "Exploration of innovative educational practices and theories in the early 19th century.",
+      "course": "67511703f69ec08cc332648b",
+      "lessons": [
+          {
+              "name": "Simon Rodr\u00edguez\u2019s Contributions",
+              "description": "Study of educational reformers, with a focus on Simon Rodr\u00edguez.",
+              "module": "M11203"
+          },
+          {
+              "name": "Integration of Practical Knowledge",
+              "description": "Examination of practical versus theoretical educational methods.",
+              "module": "M11203"
+          },
+          {
+              "name": "Social Change through Education",
+              "description": "Role of education in fostering social change during the 19th century.",
+              "module": "M11203"
+          }
+      ]
+  },
+  {
+      "name": "Foundations of Christian Ethics",
+      "description": "Study of core principles of Christian ethics derived from biblical texts.",
+      "course": "67511703f69ec08cc332648c",
+      "lessons": [
+          {
+              "name": "Moral Decision-Making",
+              "description": "Introduction to Christian principles of moral decision-making.",
+              "module": "M11301"
+          },
+          {
+              "name": "Virtues and Vices",
+              "description": "Exploration of Christian virtues and vices.",
+              "module": "M11301"
+          },
+          {
+              "name": "Contemporary Moral Issues",
+              "description": "Application of Christian ethics to modern moral dilemmas.",
+              "module": "M11301"
+          }
+      ]
+  },
+  {
+      "name": "Foundations of Christian Ethics",
+      "description": "Study of core principles of Christian ethics derived from biblical texts.",
+      "course": "67511703f69ec08cc332648c",
+      "lessons": [
+          {
+              "name": "Moral Decision-Making",
+              "description": "Introduction to Christian principles of moral decision-making.",
+              "module": "M11302"
+          },
+          {
+              "name": "Virtues and Vices",
+              "description": "Exploration of Christian virtues and vices.",
+              "module": "M11302"
+          },
+          {
+              "name": "Contemporary Moral Issues",
+              "description": "Application of Christian ethics to modern moral dilemmas.",
+              "module": "M11302"
+          }
+      ]
+  },
+  {
+      "name": "Foundations of Christian Ethics",
+      "description": "Study of core principles of Christian ethics derived from biblical texts.",
+      "course": "67511703f69ec08cc332648c",
+      "lessons": [
+          {
+              "name": "Moral Decision-Making",
+              "description": "Introduction to Christian principles of moral decision-making.",
+              "module": "M11303"
+          },
+          {
+              "name": "Virtues and Vices",
+              "description": "Exploration of Christian virtues and vices.",
+              "module": "M11303"
+          },
+          {
+              "name": "Contemporary Moral Issues",
+              "description": "Application of Christian ethics to modern moral dilemmas.",
+              "module": "M11303"
+          }
+      ]
+  },
+  {
+      "name": "Early Christianity and the Apostolic Age",
+      "description": "Historical study of early Christian communities and the Apostolic Age.",
+      "course": "67511703f69ec08cc332648d",
+      "lessons": [
+          {
+              "name": "Life of Jesus Christ",
+              "description": "Study of the life and teachings of Jesus Christ.",
+              "module": "M11401"
+          },
+          {
+              "name": "Role of the Apostles",
+              "description": "Exploration of the Apostles\u2019 role in spreading Christianity.",
+              "module": "M11401"
+          },
+          {
+              "name": "Formation of Christian Doctrines",
+              "description": "Examination of the formation of early Christian doctrines.",
+              "module": "M11401"
+          }
+      ]
+  },
+  {
+      "name": "Early Christianity and the Apostolic Age",
+      "description": "Historical study of early Christian communities and the Apostolic Age.",
+      "course": "67511703f69ec08cc332648d",
+      "lessons": [
+          {
+              "name": "Life of Jesus Christ",
+              "description": "Study of the life and teachings of Jesus Christ.",
+              "module": "M11402"
+          },
+          {
+              "name": "Role of the Apostles",
+              "description": "Exploration of the Apostles\u2019 role in spreading Christianity.",
+              "module": "M11402"
+          },
+          {
+              "name": "Formation of Christian Doctrines",
+              "description": "Examination of the formation of early Christian doctrines.",
+              "module": "M11402"
+          }
+      ]
+  },
+  {
+      "name": "Early Christianity and the Apostolic Age",
+      "description": "Historical study of early Christian communities and the Apostolic Age.",
+      "course": "67511703f69ec08cc332648d",
+      "lessons": [
+          {
+              "name": "Life of Jesus Christ",
+              "description": "Study of the life and teachings of Jesus Christ.",
+              "module": "M11403"
+          },
+          {
+              "name": "Role of the Apostles",
+              "description": "Exploration of the Apostles\u2019 role in spreading Christianity.",
+              "module": "M11403"
+          },
+          {
+              "name": "Formation of Christian Doctrines",
+              "description": "Examination of the formation of early Christian doctrines.",
+              "module": "M11403"
+          }
+      ]
+  },
+  {
+      "name": "Leadership and Service in Christian Communities",
+      "description": "Insights into leadership and service within Christian communities.",
+      "course": "67511703f69ec08cc332648e",
+      "lessons": [
+          {
+              "name": "Pastoral Care",
+              "description": "Introduction to the role of pastoral care in Christian leadership.",
+              "module": "M11501"
+          },
+          {
+              "name": "Servant Leadership",
+              "description": "Study of servant leadership principles in Christian contexts.",
+              "module": "M11501"
+          },
+          {
+              "name": "Stewardship of Church Resources",
+              "description": "Focus on stewardship and resource management in church communities.",
+              "module": "M11501"
+          }
+      ]
+  },
+  {
+      "name": "Leadership and Service in Christian Communities",
+      "description": "Insights into leadership and service within Christian communities.",
+      "course": "67511703f69ec08cc332648e",
+      "lessons": [
+          {
+              "name": "Pastoral Care",
+              "description": "Introduction to the role of pastoral care in Christian leadership.",
+              "module": "M11502"
+          },
+          {
+              "name": "Servant Leadership",
+              "description": "Study of servant leadership principles in Christian contexts.",
+              "module": "M11502"
+          },
+          {
+              "name": "Stewardship of Church Resources",
+              "description": "Focus on stewardship and resource management in church communities.",
+              "module": "M11502"
+          }
+      ]
+  },
+  {
+      "name": "Leadership and Service in Christian Communities",
+      "description": "Insights into leadership and service within Christian communities.",
+      "course": "67511703f69ec08cc332648e",
+      "lessons": [
+          {
+              "name": "Pastoral Care",
+              "description": "Introduction to the role of pastoral care in Christian leadership.",
+              "module": "M11503"
+          },
+          {
+              "name": "Servant Leadership",
+              "description": "Study of servant leadership principles in Christian contexts.",
+              "module": "M11503"
+          },
+          {
+              "name": "Stewardship of Church Resources",
+              "description": "Focus on stewardship and resource management in church communities.",
+              "module": "M11503"
+          }
+      ]
+  },
+  {
+      "name": "Sufi Philosophy and Mystical Traditions",
+      "description": "Exploration of Sufi philosophy and mystical practices in Islamic spirituality.",
+      "course": "67511703f69ec08cc332648f",
+      "lessons": [
+          {
+              "name": "Key Figures in Sufism",
+              "description": "Study of important figures like Rumi and Hafiz in Sufi traditions.",
+              "module": "M11601"
+          },
+          {
+              "name": "Mystical Practices",
+              "description": "Examination of mystical practices and rituals in Sufism.",
+              "module": "M11601"
+          },
+          {
+              "name": "Philosophy of Love and Divine Union",
+              "description": "Exploration of philosophical concepts in Sufism, such as love and divine union.",
+              "module": "M11601"
+          }
+      ]
+  },
+  {
+      "name": "Sufi Philosophy and Mystical Traditions",
+      "description": "Exploration of Sufi philosophy and mystical practices in Islamic spirituality.",
+      "course": "67511703f69ec08cc332648f",
+      "lessons": [
+          {
+              "name": "Key Figures in Sufism",
+              "description": "Study of important figures like Rumi and Hafiz in Sufi traditions.",
+              "module": "M11602"
+          },
+          {
+              "name": "Mystical Practices",
+              "description": "Examination of mystical practices and rituals in Sufism.",
+              "module": "M11602"
+          },
+          {
+              "name": "Philosophy of Love and Divine Union",
+              "description": "Exploration of philosophical concepts in Sufism, such as love and divine union.",
+              "module": "M11602"
+          }
+      ]
+  },
+  {
+      "name": "Sufi Philosophy and Mystical Traditions",
+      "description": "Exploration of Sufi philosophy and mystical practices in Islamic spirituality.",
+      "course": "67511703f69ec08cc332648f",
+      "lessons": [
+          {
+              "name": "Key Figures in Sufism",
+              "description": "Study of important figures like Rumi and Hafiz in Sufi traditions.",
+              "module": "M11603"
+          },
+          {
+              "name": "Mystical Practices",
+              "description": "Examination of mystical practices and rituals in Sufism.",
+              "module": "M11603"
+          },
+          {
+              "name": "Philosophy of Love and Divine Union",
+              "description": "Exploration of philosophical concepts in Sufism, such as love and divine union.",
+              "module": "M11603"
+          }
+      ]
+  },
+  {
+      "name": "Ethical Wisdom in Islamic Teachings",
+      "description": "Study of moral teachings and ethical wisdom found in the Quran and Hadith.",
+      "course": "67511703f69ec08cc3326490",
+      "lessons": [
+          {
+              "name": "Divine Guidance and Free Will",
+              "description": "Examination of divine guidance and free will in Islamic ethics.",
+              "module": "M11701"
+          },
+          {
+              "name": "Pursuit of Righteousness",
+              "description": "Exploration of moral reasoning and the pursuit of righteousness.",
+              "module": "M11701"
+          },
+          {
+              "name": "Contemporary Ethical Dilemmas",
+              "description": "Application of Islamic ethical principles to modern ethical dilemmas.",
+              "module": "M11701"
+          }
+      ]
+  },
+  {
+      "name": "Ethical Wisdom in Islamic Teachings",
+      "description": "Study of moral teachings and ethical wisdom found in the Quran and Hadith.",
+      "course": "67511703f69ec08cc3326490",
+      "lessons": [
+          {
+              "name": "Divine Guidance and Free Will",
+              "description": "Examination of divine guidance and free will in Islamic ethics.",
+              "module": "M11702"
+          },
+          {
+              "name": "Pursuit of Righteousness",
+              "description": "Exploration of moral reasoning and the pursuit of righteousness.",
+              "module": "M11702"
+          },
+          {
+              "name": "Contemporary Ethical Dilemmas",
+              "description": "Application of Islamic ethical principles to modern ethical dilemmas.",
+              "module": "M11702"
+          }
+      ]
+  },
+  {
+      "name": "Ethical Wisdom in Islamic Teachings",
+      "description": "Study of moral teachings and ethical wisdom found in the Quran and Hadith.",
+      "course": "67511703f69ec08cc3326490",
+      "lessons": [
+          {
+              "name": "Divine Guidance and Free Will",
+              "description": "Examination of divine guidance and free will in Islamic ethics.",
+              "module": "M11703"
+          },
+          {
+              "name": "Pursuit of Righteousness",
+              "description": "Exploration of moral reasoning and the pursuit of righteousness.",
+              "module": "M11703"
+          },
+          {
+              "name": "Contemporary Ethical Dilemmas",
+              "description": "Application of Islamic ethical principles to modern ethical dilemmas.",
+              "module": "M11703"
+          }
+      ]
+  },
+  {
+      "name": "Understanding the Unseen: Islamic Esotericism",
+      "description": "Study of esoteric aspects of Islam, focusing on the unseen world and spiritual symbolism.",
+      "course": "67511703f69ec08cc3326491",
+      "lessons": [
+          {
+              "name": "Spiritual Symbolism in Islamic Texts",
+              "description": "Examination of spiritual symbolism found in the Quran and other Islamic texts.",
+              "module": "M11801"
+          },
+          {
+              "name": "Mystical Experiences",
+              "description": "Exploration of mystical experiences and their significance in Islamic spirituality.",
+              "module": "M11801"
+          },
+          {
+              "name": "Interplay between Material and Spiritual Realms",
+              "description": "Study of the interaction between material and spiritual worlds in Islamic esotericism.",
+              "module": "M11801"
+          }
+      ]
+  },
+  {
+      "name": "Understanding the Unseen: Islamic Esotericism",
+      "description": "Study of esoteric aspects of Islam, focusing on the unseen world and spiritual symbolism.",
+      "course": "67511703f69ec08cc3326491",
+      "lessons": [
+          {
+              "name": "Spiritual Symbolism in Islamic Texts",
+              "description": "Examination of spiritual symbolism found in the Quran and other Islamic texts.",
+              "module": "M11802"
+          },
+          {
+              "name": "Mystical Experiences",
+              "description": "Exploration of mystical experiences and their significance in Islamic spirituality.",
+              "module": "M11802"
+          },
+          {
+              "name": "Interplay between Material and Spiritual Realms",
+              "description": "Study of the interaction between material and spiritual worlds in Islamic esotericism.",
+              "module": "M11802"
+          }
+      ]
+  },
+  {
+      "name": "Understanding the Unseen: Islamic Esotericism",
+      "description": "Study of esoteric aspects of Islam, focusing on the unseen world and spiritual symbolism.",
+      "course": "67511703f69ec08cc3326491",
+      "lessons": [
+          {
+              "name": "Spiritual Symbolism in Islamic Texts",
+              "description": "Examination of spiritual symbolism found in the Quran and other Islamic texts.",
+              "module": "M11803"
+          },
+          {
+              "name": "Mystical Experiences",
+              "description": "Exploration of mystical experiences and their significance in Islamic spirituality.",
+              "module": "M11803"
+          },
+          {
+              "name": "Interplay between Material and Spiritual Realms",
+              "description": "Study of the interaction between material and spiritual worlds in Islamic esotericism.",
+              "module": "M11803"
+          }
+      ]
+  },
+  {
+      "name": "Ancient Chinese Environmental Management",
+      "description": "Exploration of environmental management in ancient China, focusing on Yu the Great.",
+      "course": "67511703f69ec08cc3326492",
+      "lessons": [
+          {
+              "name": "Yu the Great\u2019s Achievements",
+              "description": "Study of Yu the Great's contributions to flood control and irrigation.",
+              "module": "M11901"
+          },
+          {
+              "name": "Traditional Water Management",
+              "description": "Examination of traditional Chinese water management practices.",
+              "module": "M11901"
+          },
+          {
+              "name": "Relevance to Modern Environmental Challenges",
+              "description": "Exploration of how ancient practices can inform modern environmental management.",
+              "module": "M11901"
+          }
+      ]
+  },
+  {
+      "name": "Ancient Chinese Environmental Management",
+      "description": "Exploration of environmental management in ancient China, focusing on Yu the Great.",
+      "course": "67511703f69ec08cc3326492",
+      "lessons": [
+          {
+              "name": "Yu the Great\u2019s Achievements",
+              "description": "Study of Yu the Great's contributions to flood control and irrigation.",
+              "module": "M11902"
+          },
+          {
+              "name": "Traditional Water Management",
+              "description": "Examination of traditional Chinese water management practices.",
+              "module": "M11902"
+          },
+          {
+              "name": "Relevance to Modern Environmental Challenges",
+              "description": "Exploration of how ancient practices can inform modern environmental management.",
+              "module": "M11902"
+          }
+      ]
+  },
+  {
+      "name": "Ancient Chinese Environmental Management",
+      "description": "Exploration of environmental management in ancient China, focusing on Yu the Great.",
+      "course": "67511703f69ec08cc3326492",
+      "lessons": [
+          {
+              "name": "Yu the Great\u2019s Achievements",
+              "description": "Study of Yu the Great's contributions to flood control and irrigation.",
+              "module": "M11903"
+          },
+          {
+              "name": "Traditional Water Management",
+              "description": "Examination of traditional Chinese water management practices.",
+              "module": "M11903"
+          },
+          {
+              "name": "Relevance to Modern Environmental Challenges",
+              "description": "Exploration of how ancient practices can inform modern environmental management.",
+              "module": "M11903"
+          }
+      ]
+  },
+  {
+      "name": "Leadership Lessons from Chinese Mythology",
+      "description": "Study of leadership qualities and actions in Chinese mythology, focusing on Yu the Great.",
+      "course": "67511703f69ec08cc3326493",
+      "lessons": [
+          {
+              "name": "Leadership in Chinese Mythology",
+              "description": "Study of leadership figures and their qualities in Chinese mythology.",
+              "module": "M12001"
+          },
+          {
+              "name": "Ethical Governance",
+              "description": "Exploration of ethical leadership in Chinese mythology.",
+              "module": "M12001"
+          },
+          {
+              "name": "Perseverance and Vision",
+              "description": "Focus on perseverance and long-term vision as demonstrated by Yu the Great.",
+              "module": "M12001"
+          }
+      ]
+  },
+  {
+      "name": "Leadership Lessons from Chinese Mythology",
+      "description": "Study of leadership qualities and actions in Chinese mythology, focusing on Yu the Great.",
+      "course": "67511703f69ec08cc3326493",
+      "lessons": [
+          {
+              "name": "Leadership in Chinese Mythology",
+              "description": "Study of leadership figures and their qualities in Chinese mythology.",
+              "module": "M12002"
+          },
+          {
+              "name": "Ethical Governance",
+              "description": "Exploration of ethical leadership in Chinese mythology.",
+              "module": "M12002"
+          },
+          {
+              "name": "Perseverance and Vision",
+              "description": "Focus on perseverance and long-term vision as demonstrated by Yu the Great.",
+              "module": "M12002"
+          }
+      ]
+  },
+  {
+      "name": "Leadership Lessons from Chinese Mythology",
+      "description": "Study of leadership qualities and actions in Chinese mythology, focusing on Yu the Great.",
+      "course": "67511703f69ec08cc3326493",
+      "lessons": [
+          {
+              "name": "Leadership in Chinese Mythology",
+              "description": "Study of leadership figures and their qualities in Chinese mythology.",
+              "module": "M12003"
+          },
+          {
+              "name": "Ethical Governance",
+              "description": "Exploration of ethical leadership in Chinese mythology.",
+              "module": "M12003"
+          },
+          {
+              "name": "Perseverance and Vision",
+              "description": "Focus on perseverance and long-term vision as demonstrated by Yu the Great.",
+              "module": "M12003"
+          }
+      ]
+  },
+  {
+      "name": "Hydraulic Engineering in Ancient Civilizations",
+      "description": "Study of ancient hydraulic engineering with a focus on Yu the Great's flood control systems.",
+      "course": "67511703f69ec08cc3326494",
+      "lessons": [
+          {
+              "name": "Ancient Dams and Canals",
+              "description": "Exploration of ancient hydraulic structures like dams and canals.",
+              "module": "M12101"
+          },
+          {
+              "name": "Mesopotamian and Indus Valley Engineering",
+              "description": "Comparison of hydraulic engineering in Mesopotamia and the Indus Valley.",
+              "module": "M12101"
+          },
+          {
+              "name": "Impact of Hydraulic Projects",
+              "description": "Study of the social and environmental impact of ancient hydraulic projects.",
+              "module": "M12101"
+          }
+      ]
+  },
+  {
+      "name": "Hydraulic Engineering in Ancient Civilizations",
+      "description": "Study of ancient hydraulic engineering with a focus on Yu the Great's flood control systems.",
+      "course": "67511703f69ec08cc3326494",
+      "lessons": [
+          {
+              "name": "Ancient Dams and Canals",
+              "description": "Exploration of ancient hydraulic structures like dams and canals.",
+              "module": "M12102"
+          },
+          {
+              "name": "Mesopotamian and Indus Valley Engineering",
+              "description": "Comparison of hydraulic engineering in Mesopotamia and the Indus Valley.",
+              "module": "M12102"
+          },
+          {
+              "name": "Impact of Hydraulic Projects",
+              "description": "Study of the social and environmental impact of ancient hydraulic projects.",
+              "module": "M12102"
+          }
+      ]
+  },
+  {
+      "name": "Hydraulic Engineering in Ancient Civilizations",
+      "description": "Study of ancient hydraulic engineering with a focus on Yu the Great's flood control systems.",
+      "course": "67511703f69ec08cc3326494",
+      "lessons": [
+          {
+              "name": "Ancient Dams and Canals",
+              "description": "Exploration of ancient hydraulic structures like dams and canals.",
+              "module": "M12103"
+          },
+          {
+              "name": "Mesopotamian and Indus Valley Engineering",
+              "description": "Comparison of hydraulic engineering in Mesopotamia and the Indus Valley.",
+              "module": "M12103"
+          },
+          {
+              "name": "Impact of Hydraulic Projects",
+              "description": "Study of the social and environmental impact of ancient hydraulic projects.",
+              "module": "M12103"
+          }
+      ]
   }
-  
 ]
