@@ -4,7 +4,7 @@ import Dashboard from "./Dashboard";
 import KanbasNavigation from "./Navigation";
 import Courses from "./Courses";
 import "./styles.css";
-import {useEffect, useState} from "react";
+import {useEffect, useState, useCallback} from "react";
 import ProtectedRoute from "./Account/ProtectedRoute";
 import {useSelector} from "react-redux";
 import Session from "./Account/Session";
@@ -21,15 +21,15 @@ export default function Kanbas() {
     image: "/images/reactjs.jpg", description: "New Description"
   });
   const [enrolling, setEnrolling] = useState<boolean>(false);
-  const findCoursesForUser = async () => {
+  const findCoursesForUser = useCallback(async () => {
     try {
       const courses = await userClient.findCoursesForUser(currentUser._id);
       setCourses(courses);
     } catch (error) {
       console.error(error);
     }
-  };
-  const fetchCourses = async () => {
+  }, [currentUser._id]);
+  const fetchCourses = useCallback(async () => {
     try {
       const allCourses = await courseClient.fetchAllCourses();
       const enrolledCourses = await userClient.findCoursesForUser(
@@ -46,7 +46,7 @@ export default function Kanbas() {
     } catch (error) {
       console.error(error);
     }
-  };
+  }, [currentUser._id]);
 
   useEffect(() => {
     if (enrolling) {
@@ -54,14 +54,13 @@ export default function Kanbas() {
     } else {
       findCoursesForUser();
     }
-  }, [currentUser, enrolling]);
+  }, [fetchCourses, findCoursesForUser, enrolling]);
 
   const addNewCourse = async() => {
     const newCourse = await courseClient.createCourse(course);
     setCourses([ ...courses, newCourse ]);
   };
   const deleteCourse = async(courseId: string) => {
-    const status = await courseClient.deleteCourse(courseId)
     setCourses(courses.filter((course) => course._id !== courseId));
   };
   const updateCourse = async() => {

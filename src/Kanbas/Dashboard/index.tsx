@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useCallback} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import { Link } from "react-router-dom";
 import {enroll, unenroll, setEnrollments} from "./enrollmentsReducer";
@@ -18,7 +18,6 @@ export default function Dashboard(
   setEnrolling: (enrolling: boolean) => void;}) {
   const [allCourses, setAllCourses] = useState<any[]>([]);
   const { currentUser } = useSelector((state: any) => state.accountReducer);
-  const isStudent = currentUser?.role === "STUDENT";
   // everytime enroll or unroll a course,
   // need to retrive from the server of the newest list
   const [myCourses, setMyCourses] = useState<any[]>([]);
@@ -37,16 +36,16 @@ export default function Dashboard(
     setAllCourses(allCourses);
   };
 
-  const fetchMyCourses = async () => {
+  const fetchMyCourses = useCallback(async () => {
     const myCourses = await userClient.findMyCourses();
     setMyCourses(myCourses);
     dispatch(setEnrollments(myCourses));
-  }
+  }, [dispatch]);
 
   useEffect(() => {
     fetchMyCourses()
     fetchAllCourses();
-  },[])
+  },[fetchMyCourses]);
 
   const enrollCourse = async ({ course }: { course: any }) => {
     await userClient.enrollIntoCourse(currentUser._id, course._id);
@@ -116,7 +115,7 @@ export default function Dashboard(
                     }
                   }}
                 >
-                  <img src={`/images/${course.name}.jpg`} width="100%" height={160}/>
+                  <img src={`/images/${course.name}.jpg`} width="100%" height={160} alt={course.name}/>
                   <div className="card-body">
                     <h5 className="wd-dashboard-course-title card-title overflow-y-hidden" style={{maxHeight: 23}}>
                       {course.name}

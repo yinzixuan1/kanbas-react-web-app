@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { FaCheck, FaUserCircle } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 import { useParams, useNavigate } from "react-router";
@@ -24,17 +24,17 @@ export default function PeopleDetails() {
     navigate(-1);
   };
 
-  const fetchUser = async () => {
+  const fetchUser = useCallback(async () => {
     if (!uid) return;
     const user = await client.findUserById(uid);
     setUser(user);
-  };
+  }, [uid]);
   useEffect(() => {
     if (uid) {
       fetchUser();
       setEditing(false)
     }
-  }, [uid]);
+  }, [uid, fetchUser]);
   if (!uid) return null;
   return (
     <div className="wd-people-details position-fixed top-0 end-0 bottom-0 bg-white p-4 shadow w-25">
