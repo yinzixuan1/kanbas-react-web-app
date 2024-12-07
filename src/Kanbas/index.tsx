@@ -22,14 +22,16 @@ export default function Kanbas() {
   });
   const [enrolling, setEnrolling] = useState<boolean>(false);
   const findCoursesForUser = useCallback(async () => {
+    if (!currentUser || !currentUser._id) return;
     try {
       const courses = await userClient.findCoursesForUser(currentUser._id);
       setCourses(courses);
     } catch (error) {
       console.error(error);
     }
-  }, [currentUser._id]);
+  }, [currentUser]);
   const fetchCourses = useCallback(async () => {
+    if (!currentUser || !currentUser._id) return;
     try {
       const allCourses = await courseClient.fetchAllCourses();
       const enrolledCourses = await userClient.findCoursesForUser(
@@ -46,7 +48,7 @@ export default function Kanbas() {
     } catch (error) {
       console.error(error);
     }
-  }, [currentUser._id]);
+  }, [currentUser]);
 
   useEffect(() => {
     if (enrolling) {
